@@ -100818,3 +100818,1083 @@
 2026-03-12 20:41:40 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
 2026-03-12 20:41:40 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
 2026-03-12 20:41:40 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:41:40 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:41 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:41 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:41 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:41 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:41 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:45 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:41:45 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:46 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:47 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:41:47 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:47 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:47 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:47 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:47 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:47 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:47 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:41:47 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:48 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:48 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:48 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:48 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:48 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:51 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:41:51 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:52 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:52 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:52 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:52 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:52 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:52 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:41:52 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:52 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:52 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:52 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:52 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:52 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:53 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:41:53 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:53 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:53 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:53 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:53 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:53 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:54 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:41:54 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:54 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:54 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:54 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:54 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:54 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:54 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:41:54 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:41:55 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:41:55 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:41:55 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:41:55 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:41:55 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:41:58 | INFO     | ai_quant_trader | Fetching 200 klines for BTCUSDT 15m (attempt 1)
+2026-03-12 20:41:58 | INFO     | ai_quant_trader | Successfully fetched 200 klines for BTCUSDT 15m
+2026-03-12 20:41:58 | INFO     | ai_quant_trader | Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-12 12:30:00
+2026-03-12 20:41:58 | INFO     | ai_quant_trader | LLM request attempt 1/3
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | LLM response received, length: 176
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | Found JSON object, length: 157
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | Successfully parsed JSON from LLM response
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | TARGET_POSITION_UPDATE: BTCUSDT dir=long target=0.0200 action=open_long
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:00 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | TARGET_POSITION_UPDATE: BTCUSDT target_size=0.0200
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:01 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 检测到未成交订单，检查是否需要调整
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | Main cycle=60s, intra-cycle checks every 5s
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:02 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:03 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:03 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:03 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:03 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:03 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:03 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:03 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:03 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:03 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:03 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:03 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:03 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:07 | INFO     | ai_quant_trader | Fetching 200 klines for BTCUSDT 15m (attempt 1)
+2026-03-12 20:42:08 | INFO     | ai_quant_trader | Successfully fetched 200 klines for BTCUSDT 15m
+2026-03-12 20:42:08 | INFO     | ai_quant_trader | Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-12 12:30:00
+2026-03-12 20:42:08 | INFO     | ai_quant_trader | LLM request attempt 1/3
+2026-03-12 20:42:08 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:08 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:09 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:09 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:09 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:09 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:09 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:09 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:09 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:09 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:09 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:09 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:09 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:09 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | LLM response received, length: 176
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | Found JSON object, length: 157
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | Successfully parsed JSON from LLM response
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | TARGET_POSITION_UPDATE: BTCUSDT dir=long target=0.0200 action=open_long
+2026-03-12 20:42:10 | WARNING  | ai_quant_trader | ENTRY_TIMING_BLOCKED: BTCUSDT entry_mode=PULLBACK bb_pos=0.683 rsi=69.40 trend_strength=0.00 ai_confidence=0.80 wait_reason=pullback_not_ready
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:10 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | Main cycle=60s, intra-cycle checks every 5s
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:11 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:12 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:12 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:12 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:12 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:12 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:12 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:12 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:12 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:12 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:13 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:13 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:13 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:13 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:13 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:14 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:14 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:15 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:15 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:15 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:15 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:15 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:15 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:15 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:15 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:15 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:15 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:15 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:15 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:18 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:18 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:18 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:18 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:18 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:18 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:18 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:19 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:20 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:20 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:21 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:21 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:21 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:21 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:21 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:21 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:21 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:21 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:21 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:21 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:21 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:21 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:25 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:25 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:25 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:25 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:25 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:25 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:25 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:26 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:26 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:26 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:26 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:26 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:26 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:26 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:26 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:26 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:26 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:26 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:27 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:32 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:32 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:32 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:32 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:32 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:32 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:32 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:32 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:32 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:32 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:32 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:33 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:38 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:38 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:39 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:40 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:40 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:40 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:40 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:40 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:40 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:40 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:40 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:40 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:40 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:40 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:40 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:44 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:44 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:45 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:45 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:45 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:45 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:45 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:45 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:45 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:45 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:45 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:45 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:45 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:45 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:46 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:46 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:46 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:46 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:46 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:46 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:46 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:46 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:46 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:47 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:47 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:47 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:47 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:47 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:47 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:47 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:47 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:47 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:47 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:47 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:47 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:50 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:50 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:51 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:51 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:51 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:51 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:51 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:51 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:51 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:51 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:51 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:51 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:51 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:51 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:52 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:52 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:53 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:53 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:53 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:53 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:53 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:53 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:53 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:54 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:54 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:54 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:54 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:54 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:54 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:54 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:54 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:54 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:54 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:54 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:54 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:56 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:56 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:57 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:57 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:57 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:57 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:57 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:57 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:57 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:42:57 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:42:57 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:42:57 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:42:57 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:42:57 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:42:59 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:42:59 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:00 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:01 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:01 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:01 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:01 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:01 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:02 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:02 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:02 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:02 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:02 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:02 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:02 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:02 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:02 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:03 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:03 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:03 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:03 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:03 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:06 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:06 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:06 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:06 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:06 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:06 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:06 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:07 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:08 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:08 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:08 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:08 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:08 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:08 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:08 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:08 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:08 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:09 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:09 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:09 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:09 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:09 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:13 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:13 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:13 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:13 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:13 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:13 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:13 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:13 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:13 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | Fetching 200 klines for BTCUSDT 15m (attempt 1)
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | Successfully fetched 200 klines for BTCUSDT 15m
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-12 12:30:00
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:14 | INFO     | ai_quant_trader | LLM request attempt 1/3
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | LLM response received, length: 176
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | Found JSON object, length: 157
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | Successfully parsed JSON from LLM response
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | TARGET_POSITION_UPDATE: BTCUSDT dir=long target=0.0200 action=open_long
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:16 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:17 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:17 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:17 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:17 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:17 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:17 | INFO     | ai_quant_trader | TARGET_POSITION_UPDATE: BTCUSDT target_size=0.0200
+2026-03-12 20:43:17 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:17 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 检测到未成交订单，检查是否需要调整
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | Main cycle=60s, intra-cycle checks every 5s
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:18 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:19 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:19 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:19 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:19 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:19 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:19 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:19 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:19 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:19 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:19 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:19 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:19 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:20 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:20 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:20 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:20 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:20 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:20 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:20 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:20 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:20 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:21 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:21 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:21 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:21 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:21 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:21 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:21 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:21 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:21 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:21 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:21 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:21 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:24 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:24 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:24 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:24 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:24 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:24 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:24 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:24 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:24 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:25 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:25 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:25 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:25 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:25 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:27 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:28 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:28 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:28 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:28 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:28 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:28 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:28 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:30 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:30 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:30 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:30 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:30 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:30 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:30 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:30 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:30 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:31 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:31 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:31 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:31 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:31 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:33 | INFO     | ai_quant_trader | Fetching 200 klines for BTCUSDT 15m (attempt 1)
+2026-03-12 20:43:34 | INFO     | ai_quant_trader | Successfully fetched 200 klines for BTCUSDT 15m
+2026-03-12 20:43:34 | INFO     | ai_quant_trader | Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-12 12:30:00
+2026-03-12 20:43:34 | INFO     | ai_quant_trader | LLM request attempt 1/3
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | LLM response received, length: 176
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | Found JSON object, length: 157
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | Successfully parsed JSON from LLM response
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | TARGET_POSITION_UPDATE: BTCUSDT dir=long target=0.0200 action=open_long
+2026-03-12 20:43:35 | WARNING  | ai_quant_trader | ENTRY_TIMING_BLOCKED: BTCUSDT entry_mode=PULLBACK bb_pos=0.683 rsi=69.40 trend_strength=0.00 ai_confidence=0.80 wait_reason=pullback_not_ready
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:35 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | Main cycle=60s, intra-cycle checks every 5s
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:36 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:37 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:42 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:43 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:43 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:43 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:43 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:43 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:43 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:43 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:43 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:43 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:44 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:44 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:44 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:44 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:44 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:44 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:44 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:44 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:44 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:44 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:44 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:44 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:47 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:47 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:48 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:48 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:48 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:48 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:48 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:48 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:48 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:49 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:49 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:50 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:51 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:51 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:51 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:51 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:51 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:55 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:55 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:56 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:43:57 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:02 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:02 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:02 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:02 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:02 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:02 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:02 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:02 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:02 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:02 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:02 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:03 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:04 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:04 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:04 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:04 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:04 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:08 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:08 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:08 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:08 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:08 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:08 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:08 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:08 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:08 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:09 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:09 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:09 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:09 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:09 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:09 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:09 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:09 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:09 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:09 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:09 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:09 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:10 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:10 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:10 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:10 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:10 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:10 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:10 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:10 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:10 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:11 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:11 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:11 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:11 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:11 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:14 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:14 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:14 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:14 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:14 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:14 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:14 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:14 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:14 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:15 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:15 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:15 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:15 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:15 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:16 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:16 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:16 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:16 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:16 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:16 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:16 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:16 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:16 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:17 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:17 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:17 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:17 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:17 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:17 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:17 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:18 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:18 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:18 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:18 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:18 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:21 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:23 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:23 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:24 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:24 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:24 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:24 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:24 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:24 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:24 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:24 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:24 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:24 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:24 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:24 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:25 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:25 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:25 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:25 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:25 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:25 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:25 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:27 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:30 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:30 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:31 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:31 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:31 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:31 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:31 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:31 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:31 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:31 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:31 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:31 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:31 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:31 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:32 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:32 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:33 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:33 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:33 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:33 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:33 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:33 | INFO     | ai_quant_trader | Fetching 200 klines for BTCUSDT 15m (attempt 1)
+2026-03-12 20:44:33 | INFO     | ai_quant_trader | Successfully fetched 200 klines for BTCUSDT 15m
+2026-03-12 20:44:33 | INFO     | ai_quant_trader | Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-12 12:30:00
+2026-03-12 20:44:33 | INFO     | ai_quant_trader | LLM request attempt 1/3
+2026-03-12 20:44:35 | INFO     | ai_quant_trader | LLM response received, length: 176
+2026-03-12 20:44:35 | INFO     | ai_quant_trader | Found JSON object, length: 157
+2026-03-12 20:44:35 | INFO     | ai_quant_trader | Successfully parsed JSON from LLM response
+2026-03-12 20:44:35 | INFO     | ai_quant_trader | TARGET_POSITION_UPDATE: BTCUSDT dir=long target=0.0200 action=open_long
+2026-03-12 20:44:35 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:35 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:36 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | TARGET_POSITION_UPDATE: BTCUSDT target_size=0.0200
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | API 调用成功，返回 100 个订单
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 活跃订单数量：0
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 交易所 API 返回 0 个活跃订单
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 交易所返回 0 个原始订单
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 查询到 0 个活跃订单
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 检测到未成交订单，检查是否需要调整
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | Main cycle=60s, intra-cycle checks every 5s
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
+2026-03-12 20:44:37 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
