@@ -1,7 +1,7 @@
 import time
 import signal
 import sys
-from typing import List, Optional
+from typing import Dict, List, Optional
 from datetime import datetime
 from core.logger import logger
 from core.formatted_output import formatted_output
