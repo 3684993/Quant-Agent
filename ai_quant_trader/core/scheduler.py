@@ -664,21 +664,19 @@ class Scheduler:
                 self._execute_cycle()
                 
                 if self._running:
-                    elapsed = time.perf_counter() - cycle_started
-                    wait_seconds = max(0, self.interval - elapsed)
-                    self._run_intra_cycle_tasks(wait_seconds=wait_seconds)
+                    logger.info("[STAGE] 进入监控循环")
+                    while self._running and (time.perf_counter() - cycle_started) < self.interval:
+                        self._run_intra_cycle_tasks()
                     
             except Exception as e:
                 logger.error(f"Unexpected error in main loop: {e}")
                 time.sleep(5)
     
-    def _run_intra_cycle_tasks(self, wait_seconds: int) -> None:
+    def _run_intra_cycle_tasks(self) -> None:
         """主周期内执行轻量任务，避免整段休眠。"""
-        check_every = max(1, int(getattr(settings, "intra_cycle_check_seconds", 5)))
-        elapsed = 0
-        logger.info("[STAGE] symbol=ALL stage=intra_cycle window=%ds check=%ds", int(wait_seconds), int(check_every))
+        logger.info("[STAGE] 进入监控任务")
 
-        while self._running and elapsed < max(0, int(wait_seconds)):
+        if self._running:
             try:
                 for symbol in self.symbols:
                     # 1) 订单巡检与委托管理
@@ -757,12 +755,6 @@ class Scheduler:
             except Exception as e:
                 logger.warning(f"Intra-cycle task warning: {e}")
 
-            sleep_s = min(check_every, max(0, int(wait_seconds) - elapsed))
-            if sleep_s <= 0:
-                break
-            time.sleep(sleep_s)
-            elapsed += sleep_s
-
     def stop(self) -> None:
         logger.info("Stopping scheduler...")
         self._running = False
@@ -793,7 +785,17 @@ class Scheduler:
             elapsed_ms = int((time.perf_counter() - started_at) * 1000)
         except Exception:
             elapsed_ms = 0
-        logger.info("[STAGE] symbol=%s stage=%s ms=%d", symbol, stage, elapsed_ms)
+        stage_map = {
+            "market_data": "行情采集",
+            "analysis": "指标分析",
+            "position_sync": "持仓同步",
+            "risk_exit": "风控检查",
+            "decision": "AI决策",
+            "execution": "执行处理",
+            "cycle_total": "周期总耗时",
+        }
+        stage_label = stage_map.get(stage, stage)
+        logger.info("[STAGE] 交易对=%s 阶段=%s 耗时=%dms", symbol, stage_label, elapsed_ms)
 
     def _resolve_decision_size(self, decision: Dict, position_state: Dict) -> float:
         size = decision.get("target_size")
