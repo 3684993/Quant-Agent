@@ -20,6 +20,7 @@ class Settings:
         self.timeframes = ["1m", "5m", "15m"]
         self.kline_limit = 200
         self.loop_interval = 60
+        self.intra_cycle_check_seconds = int(os.getenv("INTRA_CYCLE_CHECK_SECONDS", "5"))
         
         trading_env = os.getenv("TRADING_ENV", "testnet").lower()
         self.trading_env = "testnet" if trading_env not in ["live", "production"] else "live"
@@ -61,7 +62,8 @@ class Settings:
             "max_hold_minutes": self.max_hold_minutes,
             "max_position_size": self.max_position_size,
             "max_drawdown_pct": self.max_drawdown_pct,
-            "max_loss_pct": self.max_loss_pct
+            "max_loss_pct": self.max_loss_pct,
+            "intra_cycle_check_seconds": self.intra_cycle_check_seconds
         }
 
 

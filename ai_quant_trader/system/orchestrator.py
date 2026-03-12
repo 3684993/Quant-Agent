@@ -19,7 +19,7 @@ from ai.decision_engine import DecisionEngine
 from agents.orderbook_agent import OrderBookAgent
 from agents.liquidity_agent import LiquidityAgent
 from agents.profit_optimizer import ProfitOptimizer
-from execution.position_manager import PositionManager
+from core.position_manager import PositionManager
 from execution.risk_manager import RiskManager
 from execution.order_executor import OrderExecutor
 from learning.trade_memory import TradeMemory

@@ -16,7 +16,7 @@ from agents.liquidity_agent import LiquidityAgent
 from agents.profit_optimizer import ProfitOptimizer
 from agents.advanced_take_profit import advanced_take_profit
 from agents.intelligent_close_decision import intelligent_close_decision
-from execution.position_manager import PositionManager
+from core.position_manager import PositionManager
 from execution.risk_manager import RiskManager
 from execution.order_executor import OrderExecutor
 from learning.trade_memory import TradeMemory
@@ -289,7 +289,7 @@ class Scheduler:
                     
                     # 1. 初始化委托管理模块（如果尚未初始化）
                     if not hasattr(self, 'order_manager') or self.order_manager is None:
-                        from execution.order_manager import OrderManager
+                        from core.order_manager import OrderManager
                         # 检查market_analyzer是否存在，如果不存在则传入None
                         market_analyzer = getattr(self, 'market_analyzer', None)
                         self.order_manager = OrderManager(self.order_executor, market_analyzer)
@@ -473,13 +473,46 @@ class Scheduler:
                 self._execute_cycle()
                 
                 if self._running:
-                    logger.info(f"Waiting {self.interval} seconds until next cycle...")
-                    time.sleep(self.interval)
+                    self._run_intra_cycle_tasks(wait_seconds=self.interval)
                     
             except Exception as e:
                 logger.error(f"Unexpected error in main loop: {e}")
                 time.sleep(5)
     
+    def _run_intra_cycle_tasks(self, wait_seconds: int) -> None:
+        """主周期内执行轻量任务，避免整段休眠。"""
+        check_every = max(1, int(getattr(settings, "intra_cycle_check_seconds", 5)))
+        elapsed = 0
+        logger.info(f"Main cycle={self.interval}s, intra-cycle checks every {check_every}s")
+
+        while self._running and elapsed < max(0, int(wait_seconds)):
+            try:
+                for symbol in self.symbols:
+                    # 1) 订单巡检与委托管理
+                    if hasattr(self, 'order_manager') and self.order_manager and self.order_executor:
+                        self.order_manager.inspect_all_orders(symbol)
+                        self.order_manager.auto_cleanup_orders(symbol)
+
+                    # 2) 持仓管理
+                    if self.position_manager and self.binance_client:
+                        self.position_manager.sync_position_from_exchange(self.binance_client, symbol)
+                        pos = self.position_manager.get_position_state()
+
+                        # 3) 风险检查
+                        if pos.get('has_position') and self.risk_manager:
+                            risk = self.risk_manager.check_risk(pos)
+                            if risk.get('action') == 'force_close' and self.order_executor:
+                                self.order_executor.close_position(symbol, pos.get('side', 'long'), pos.get('position_size', 0))
+                                self.position_manager.update_position(symbol=symbol, position_size=0, entry_price=0)
+            except Exception as e:
+                logger.warning(f"Intra-cycle task warning: {e}")
+
+            sleep_s = min(check_every, max(0, int(wait_seconds) - elapsed))
+            if sleep_s <= 0:
+                break
+            time.sleep(sleep_s)
+            elapsed += sleep_s
+
     def stop(self) -> None:
         logger.info("Stopping scheduler...")
         self._running = False

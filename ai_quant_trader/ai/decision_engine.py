@@ -79,6 +79,12 @@ RULES:
 11. RE-ENTRY ALLOWED: If no position and no pending orders, can open new position
 12. FILL_OR_REENTER: If orders not filled after 5 minutes, can cancel and re-enter at better price
 
+REQUIRED FIELDS:
+- current_price
+- entry_range
+- stop_loss
+- take_profit
+
 OUTPUT FORMAT (all keys required):
 {"action":"open_long|open_short|add_position|close_position|hold","current_price":70131.0,"entry_range":[70031.0,70231.0],"size":[0.01,0.02],"stop_loss":69900.0,"take_profit":70400.0,"expected_hold_minutes":60,"confidence":0.8}
 """

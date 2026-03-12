@@ -4,6 +4,7 @@ from core.logger import logger
 from exchange.binance_client import BinanceClient
 from config.settings import settings
 from core.execution_planner import ExecutionPlanner
+from core.order_manager import OrderManager
 
 
 class OrderExecutor:
@@ -16,6 +17,7 @@ class OrderExecutor:
         self.tick_sizes: Dict[str, float] = {}
         self.step_sizes: Dict[str, float] = {}
         self.execution_planner = ExecutionPlanner()
+        self.order_manager = OrderManager(self)
         
         logger.info(f"OrderExecutor initialized (testnet={testnet}, env={settings.trading_env})")
     
@@ -702,6 +704,13 @@ class OrderExecutor:
                     "message": "Remaining size below minimum trade size"
                 }
             
+            # 委托管理前置巡检（主周期内也会巡检，这里做执行前最终校验）
+            try:
+                self.order_manager.inspect_all_orders(symbol, intended_side=("BUY" if action in ["open_long", "add_position"] else "SELL" if action in ["open_short"] else None))
+                self.order_manager.auto_cleanup_orders(symbol)
+            except Exception as e:
+                logger.warning(f"OrderManager pre-check warning: {e}")
+
             # 根据不同的action执行相应的逻辑
             if action in ["open_long", "open_short"]:
                 return self._execute_open_position(
