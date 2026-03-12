@@ -101898,3 +101898,346 @@
 2026-03-12 20:44:37 | INFO     | ai_quant_trader | Main cycle=60s, intra-cycle checks every 5s
 2026-03-12 20:44:37 | INFO     | ai_quant_trader | 开始查询活跃订单，交易对：BTCUSDT
 2026-03-12 20:44:37 | INFO     | ai_quant_trader | 查询指定交易对活跃订单：BTCUSDT
+2026-03-12 21:02:07 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=756
+2026-03-12 21:02:07 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=trend_up rsi=66.3 macd=178.53 atr=170.95
+2026-03-12 21:02:07 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=6
+2026-03-12 21:02:07 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=128
+2026-03-12 21:02:07 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:02:09 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=hold target=0.0000 confidence=0.80
+2026-03-12 21:02:09 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1774
+2026-03-12 21:02:09 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=hold status=NOOP reason=decision_hold target=0.000000
+2026-03-12 21:02:09 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=0
+2026-03-12 21:02:09 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2667
+2026-03-12 21:02:09 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:02:09 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=bullish strength=0.00 phase=intra_cycle
+2026-03-12 21:12:06 | INFO     | ai_quant_trader | [LOG_CLEANUP] trade_memory_reset=1
+2026-03-12 21:12:08 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=1739
+2026-03-12 21:12:08 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=trend_up rsi=68.1 macd=183.74 atr=179.95
+2026-03-12 21:12:08 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=4
+2026-03-12 21:12:08 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=443
+2026-03-12 21:12:08 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:12:10 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=hold target=0.0000 confidence=0.80
+2026-03-12 21:12:10 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1926
+2026-03-12 21:12:10 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=hold status=NOOP reason=decision_hold target=0.000000
+2026-03-12 21:12:10 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=0
+2026-03-12 21:12:10 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=4115
+2026-03-12 21:12:10 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=55s check=5s
+2026-03-12 21:12:10 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=bullish strength=0.00 phase=intra_cycle
+2026-03-12 21:13:07 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=397
+2026-03-12 21:13:07 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=trend_up rsi=68.1 macd=183.74 atr=179.95
+2026-03-12 21:13:07 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=3
+2026-03-12 21:13:07 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=141
+2026-03-12 21:13:07 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:13:09 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=hold target=0.0000 confidence=0.80
+2026-03-12 21:13:09 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1034
+2026-03-12 21:13:09 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=hold status=NOOP reason=decision_hold target=0.000000
+2026-03-12 21:13:09 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=0
+2026-03-12 21:13:09 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=1578
+2026-03-12 21:13:09 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=58s check=5s
+2026-03-12 21:14:10 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=179
+2026-03-12 21:14:10 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=trend_up rsi=67.9 macd=183.21 atr=179.96
+2026-03-12 21:14:10 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=3
+2026-03-12 21:14:10 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=150
+2026-03-12 21:14:10 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:14:12 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_long target=0.0200 confidence=0.80
+2026-03-12 21:14:12 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=2052
+2026-03-12 21:14:12 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:14:12 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:14:12 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_long status=ERROR reason=Failed to create task
+2026-03-12 21:14:12 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=443
+2026-03-12 21:14:12 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2830
+2026-03-12 21:14:12 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:15:11 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=184
+2026-03-12 21:15:11 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=trend_up rsi=67.9 macd=183.21 atr=179.96
+2026-03-12 21:15:11 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=5
+2026-03-12 21:15:11 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=143
+2026-03-12 21:15:11 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:15:12 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_long target=0.0200 confidence=0.80
+2026-03-12 21:15:12 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1081
+2026-03-12 21:15:13 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:15:13 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:15:13 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_long status=ERROR reason=Failed to create task
+2026-03-12 21:15:13 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=610
+2026-03-12 21:15:13 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2027
+2026-03-12 21:15:13 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:16:12 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=170
+2026-03-12 21:16:12 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=trend_up rsi=67.8 macd=177.00 atr=163.09
+2026-03-12 21:16:12 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=2
+2026-03-12 21:16:12 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=209
+2026-03-12 21:16:12 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:16:13 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_long target=0.0200 confidence=0.80
+2026-03-12 21:16:13 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1218
+2026-03-12 21:16:14 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:16:14 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:16:14 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_long status=ERROR reason=Failed to create task
+2026-03-12 21:16:14 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=148
+2026-03-12 21:16:14 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=1751
+2026-03-12 21:16:14 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=58s check=5s
+2026-03-12 21:17:14 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=472
+2026-03-12 21:17:14 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=65.0 macd=172.65 atr=169.54
+2026-03-12 21:17:14 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=5
+2026-03-12 21:17:14 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=144
+2026-03-12 21:17:14 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:17:16 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=hold target=0.0000 confidence=0.80
+2026-03-12 21:17:16 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1894
+2026-03-12 21:17:16 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=hold status=NOOP reason=decision_hold target=0.000000
+2026-03-12 21:17:16 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=0
+2026-03-12 21:17:16 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2520
+2026-03-12 21:17:16 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:17:16 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=bearish strength=0.00 phase=intra_cycle
+2026-03-12 21:18:16 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=745
+2026-03-12 21:18:16 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=65.0 macd=172.65 atr=169.54
+2026-03-12 21:18:16 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=8
+2026-03-12 21:18:16 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=444
+2026-03-12 21:18:16 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:18:18 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=hold target=0.0000 confidence=0.80
+2026-03-12 21:18:18 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1140
+2026-03-12 21:18:18 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=hold status=NOOP reason=decision_hold target=0.000000
+2026-03-12 21:18:18 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=0
+2026-03-12 21:18:18 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2340
+2026-03-12 21:18:18 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:19:16 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=181
+2026-03-12 21:19:16 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=65.0 macd=172.65 atr=169.54
+2026-03-12 21:19:16 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=5
+2026-03-12 21:19:17 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=121
+2026-03-12 21:19:17 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:19:18 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.80
+2026-03-12 21:19:18 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1132
+2026-03-12 21:19:18 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:19:18 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:19:18 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:19:18 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=163
+2026-03-12 21:19:18 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=1607
+2026-03-12 21:19:18 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=58s check=5s
+2026-03-12 21:20:18 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=195
+2026-03-12 21:20:18 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=62.7 macd=168.75 atr=170.31
+2026-03-12 21:20:18 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=5
+2026-03-12 21:20:18 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=160
+2026-03-12 21:20:18 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:20:20 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.75
+2026-03-12 21:20:20 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=2156
+2026-03-12 21:20:21 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:20:21 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:20:21 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:20:21 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=701
+2026-03-12 21:20:21 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=3220
+2026-03-12 21:20:21 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=56s check=5s
+2026-03-12 21:21:19 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=174
+2026-03-12 21:21:19 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=64.0 macd=170.97 atr=170.36
+2026-03-12 21:21:19 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=5
+2026-03-12 21:21:19 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=140
+2026-03-12 21:21:19 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:21:21 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.80
+2026-03-12 21:21:21 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=2035
+2026-03-12 21:21:21 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:21:21 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:21:21 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:21:21 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=148
+2026-03-12 21:21:21 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2506
+2026-03-12 21:21:21 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:22:20 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=189
+2026-03-12 21:22:20 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=61.7 macd=166.99 atr=171.89
+2026-03-12 21:22:20 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=5
+2026-03-12 21:22:21 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=426
+2026-03-12 21:22:21 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:22:22 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.75
+2026-03-12 21:22:22 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1327
+2026-03-12 21:22:22 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:22:22 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:22:22 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:22:22 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=147
+2026-03-12 21:22:22 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2099
+2026-03-12 21:22:22 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:23:21 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=414
+2026-03-12 21:23:21 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=54.6 macd=152.82 atr=184.57
+2026-03-12 21:23:21 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=7
+2026-03-12 21:23:21 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=490
+2026-03-12 21:23:21 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:23:24 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.70
+2026-03-12 21:23:24 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=2060
+2026-03-12 21:23:24 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:23:24 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:23:24 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:23:24 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=135
+2026-03-12 21:23:24 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=3112
+2026-03-12 21:23:24 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=56s check=5s
+2026-03-12 21:24:23 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=203
+2026-03-12 21:24:23 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=54.1 macd=151.70 atr=185.57
+2026-03-12 21:24:23 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=5
+2026-03-12 21:24:23 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=152
+2026-03-12 21:24:23 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:24:24 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.80
+2026-03-12 21:24:24 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1299
+2026-03-12 21:24:25 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:24:25 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:24:25 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:24:25 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=691
+2026-03-12 21:24:25 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2354
+2026-03-12 21:24:25 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:25:25 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=979
+2026-03-12 21:25:25 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=54.1 macd=151.70 atr=185.57
+2026-03-12 21:25:25 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=5
+2026-03-12 21:25:25 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=130
+2026-03-12 21:25:25 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:25:26 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.80
+2026-03-12 21:25:26 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1131
+2026-03-12 21:25:27 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:25:27 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:25:27 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:25:27 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=447
+2026-03-12 21:25:27 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2698
+2026-03-12 21:25:27 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:26:26 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=510
+2026-03-12 21:26:26 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=54.6 macd=152.83 atr=185.60
+2026-03-12 21:26:26 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=5
+2026-03-12 21:26:26 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=147
+2026-03-12 21:26:26 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:26:29 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.75
+2026-03-12 21:26:29 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=2105
+2026-03-12 21:26:29 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:26:29 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:26:29 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:26:29 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=150
+2026-03-12 21:26:29 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2921
+2026-03-12 21:26:29 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:27:29 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=194
+2026-03-12 21:27:29 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=54.6 macd=152.83 atr=185.60
+2026-03-12 21:27:29 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=5
+2026-03-12 21:27:29 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=146
+2026-03-12 21:27:29 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:27:30 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.75
+2026-03-12 21:27:30 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1146
+2026-03-12 21:27:30 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:27:30 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:27:30 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:27:30 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=143
+2026-03-12 21:27:30 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=1638
+2026-03-12 21:27:30 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=58s check=5s
+2026-03-12 21:28:31 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=1006
+2026-03-12 21:28:31 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=55.1 macd=153.86 atr=185.60
+2026-03-12 21:28:31 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=7
+2026-03-12 21:28:31 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=145
+2026-03-12 21:28:31 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:28:33 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.80
+2026-03-12 21:28:33 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1277
+2026-03-12 21:28:33 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:28:33 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:28:33 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:28:33 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=138
+2026-03-12 21:28:33 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2577
+2026-03-12 21:28:33 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:29:32 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=187
+2026-03-12 21:29:32 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=54.9 macd=153.45 atr=185.60
+2026-03-12 21:29:32 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=6
+2026-03-12 21:29:32 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=152
+2026-03-12 21:29:32 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:29:34 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.80
+2026-03-12 21:29:34 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1277
+2026-03-12 21:29:34 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:29:34 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:29:34 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:29:34 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=148
+2026-03-12 21:29:34 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=1774
+2026-03-12 21:29:34 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=58s check=5s
+2026-03-12 21:30:34 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=195
+2026-03-12 21:30:34 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=54.3 macd=152.03 atr=185.60
+2026-03-12 21:30:34 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=6
+2026-03-12 21:30:34 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=141
+2026-03-12 21:30:34 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:30:36 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.80
+2026-03-12 21:30:36 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=2137
+2026-03-12 21:30:36 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:30:36 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:30:36 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:30:36 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=157
+2026-03-12 21:30:36 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2640
+2026-03-12 21:30:36 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:31:35 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=181
+2026-03-12 21:31:35 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=56.1 macd=128.71 atr=178.81
+2026-03-12 21:31:35 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=5
+2026-03-12 21:31:36 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=519
+2026-03-12 21:31:36 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:31:38 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.75
+2026-03-12 21:31:38 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=2030
+2026-03-12 21:31:38 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:31:38 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:31:38 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:31:38 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=164
+2026-03-12 21:31:38 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=2904
+2026-03-12 21:31:38 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=57s check=5s
+2026-03-12 21:32:39 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=market_data ms=862
+2026-03-12 21:32:39 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=55.2 macd=126.33 atr=178.81
+2026-03-12 21:32:39 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=analysis ms=6
+2026-03-12 21:32:39 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=position_sync ms=149
+2026-03-12 21:32:39 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=risk_exit ms=0
+2026-03-12 21:32:41 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=open_short target=0.0200 confidence=0.75
+2026-03-12 21:32:41 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=decision ms=1984
+2026-03-12 21:32:41 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000 count=0
+2026-03-12 21:32:41 | INFO     | ai_quant_trader | [EXPOSURE] symbol=BTCUSDT blocked=1 position=0.000000 open_orders=0.000000 task_remaining=0.020000 total=0.020000 max=0.020000
+2026-03-12 21:32:41 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=open_short status=ERROR reason=Failed to create task
+2026-03-12 21:32:41 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=execution ms=162
+2026-03-12 21:32:41 | INFO     | ai_quant_trader | [STAGE] symbol=BTCUSDT stage=cycle_total ms=3170
+2026-03-12 21:32:41 | INFO     | ai_quant_trader | [STAGE] symbol=ALL stage=intra_cycle window=56s check=5s
+2026-03-12 21:33:05 | INFO     | ai_quant_trader | [LOG_CLEANUP] trade_memory_reset=1
+2026-03-12 21:33:06 | INFO     | ai_quant_trader | [STAGE] 交易对=BTCUSDT 阶段=行情采集 耗时=1371ms
+2026-03-12 21:33:06 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=range rsi=54.8 macd=125.35 atr=180.24
+2026-03-12 21:33:06 | INFO     | ai_quant_trader | [STAGE] 交易对=BTCUSDT 阶段=指标分析 耗时=4ms
+2026-03-12 21:33:06 | INFO     | ai_quant_trader | [STAGE] 交易对=BTCUSDT 阶段=持仓同步 耗时=538ms
+2026-03-12 21:33:06 | INFO     | ai_quant_trader | [STAGE] 交易对=BTCUSDT 阶段=风控检查 耗时=0ms
+2026-03-12 21:33:08 | INFO     | ai_quant_trader | [AI_DECISION] symbol=BTCUSDT action=hold target=0.0000 confidence=0.75
+2026-03-12 21:33:08 | INFO     | ai_quant_trader | [STAGE] 交易对=BTCUSDT 阶段=AI决策 耗时=1884ms
+2026-03-12 21:33:08 | INFO     | ai_quant_trader | [EXECUTION] symbol=BTCUSDT action=hold status=NOOP reason=decision_hold target=0.000000
+2026-03-12 21:33:08 | INFO     | ai_quant_trader | [STAGE] 交易对=BTCUSDT 阶段=执行处理 耗时=0ms
+2026-03-12 21:33:08 | INFO     | ai_quant_trader | [STAGE] 交易对=BTCUSDT 阶段=周期总耗时 耗时=3799ms
+2026-03-12 21:33:08 | INFO     | ai_quant_trader | [STAGE] 进入监控循环
+2026-03-12 21:33:08 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:09 | INFO     | ai_quant_trader | [ANALYSIS] symbol=BTCUSDT trend=bearish strength=0.00 phase=intra_cycle
+2026-03-12 21:33:09 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:09 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:09 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:09 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:09 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:10 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:10 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:10 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:10 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:11 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:11 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:11 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:11 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:12 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:12 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:12 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:12 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:12 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:13 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:13 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:13 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:13 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:14 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:14 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:14 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:14 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:15 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:15 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:15 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:15 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:16 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:16 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:16 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:16 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:16 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:16 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:16 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:17 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:17 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:18 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:18 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:18 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:18 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:18 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:19 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:19 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:19 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:19 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
+2026-03-12 21:33:19 | INFO     | ai_quant_trader | [STAGE] 进入监控任务
