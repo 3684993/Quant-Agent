@@ -183,6 +183,15 @@ class Scheduler:
                             )
                     except Exception as e:
                         formatted_output.print_warning(f"动态止损调整失败: {e}")
+
+                    # 新增：动态追踪止损（分级锁盈）
+                    trailing_result = self.position_manager.dynamic_trailing_stop(symbol, current_price)
+                    if trailing_result.get("adjusted", False):
+                        formatted_output.print_warning(
+                            f"动态追踪止损: {trailing_result.get('old_stop_loss', 0):.2f} "
+                            f"-> {trailing_result.get('new_stop_loss', 0):.2f} "
+                            f"(profit={trailing_result.get('profit_pct', 0):.2f}%)"
+                        )
                     
                     # 检查是否应该设置收益委托
                     hold_minutes = position_state.get("hold_minutes", 0)
@@ -260,8 +269,11 @@ class Scheduler:
                 # 使用新的格式化输出 - AI决策
                 formatted_output.print_ai_decision(symbol, decision)
                 
+                position_state_for_guard = dict(position_state)
+                position_state_for_guard["trend_strength"] = close_analysis.get("strength_level", "normal") if position_state.get("has_position") else "normal"
+
                 validated = self.trade_guard.validate_decision(
-                    decision, symbol, position_state, self.binance_client
+                    decision, symbol, position_state_for_guard, self.binance_client
                 )
                 
                 if validated.get("modified"):

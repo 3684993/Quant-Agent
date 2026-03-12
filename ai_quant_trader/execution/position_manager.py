@@ -174,14 +174,39 @@ class PositionManager:
         self.position["hold_minutes"] = hold_minutes
         return hold_minutes
 
-    def check_min_hold_time(self, symbol: str) -> Dict:
+    def check_min_hold_time(self, symbol: str, trend_strength: str = "normal") -> Dict:
         if not self.position or self.position.get("symbol") != symbol:
             return {"allowed": True, "reason": "No position"}
-        held = self.calculate_hold_minutes()
-        required = int(self.position.get("expected_hold_minutes", 60))
-        if held < required:
-            return {"allowed": False, "reason": "MIN_HOLD_TIME_NOT_MET", "held_minutes": held, "required_minutes": required}
-        return {"allowed": True, "reason": "Min hold time satisfied"}
+
+        held_seconds = (datetime.now() - self.position.get("entry_time", datetime.now())).total_seconds()
+        required_seconds = 120
+
+        if str(trend_strength).lower() in ["strong", "very_strong", "high"]:
+            required_seconds += 120
+
+        pnl = float(self.position.get("current_pnl", self.position.get("pnl", 0.0)) or 0.0)
+        fees = float(self.position.get("fees", 0.0) or 0.0)
+        net_profit = pnl - fees
+
+        if held_seconds < required_seconds and net_profit <= 0:
+            return {
+                "allowed": False,
+                "reason": "MIN_HOLD_TIME_NOT_MET",
+                "held_seconds": held_seconds,
+                "required_seconds": required_seconds,
+                "net_profit": net_profit,
+            }
+
+        if held_seconds < required_seconds and net_profit > 0:
+            return {
+                "allowed": True,
+                "reason": "EARLY_CLOSE_ALLOWED_BY_NET_PROFIT",
+                "held_seconds": held_seconds,
+                "required_seconds": required_seconds,
+                "net_profit": net_profit,
+            }
+
+        return {"allowed": True, "reason": "Min hold time satisfied", "net_profit": net_profit}
 
     def check_local_sl_tp(self, symbol: str, current_price: float) -> Dict:
         if not self.position or self.position.get("symbol") != symbol:
@@ -238,6 +263,66 @@ class PositionManager:
             f"{state['symbol']} {state['side']} size={state['position_size']:.4f} "
             f"entry={state['entry_price']:.2f} pnl={state.get('pnl', 0.0):.2f} fees={state.get('fees', 0.0):.4f}"
         )
+
+
+    def dynamic_trailing_stop(self, symbol: str, current_price: float) -> Dict:
+        """动态追踪止损。
+
+        规则：
+        - profit > 0.5%: SL = entry_price
+        - profit > 1%: 锁定 0.3%
+        - profit > 2%: 锁定 1%
+        """
+        if not self.position or self.position.get("symbol") != symbol:
+            return {"adjusted": False, "reason": "No position"}
+
+        entry_price = float(self.position.get("entry_price", 0.0))
+        if entry_price <= 0:
+            return {"adjusted": False, "reason": "Invalid entry"}
+
+        side = self.position.get("side", "long")
+        current_price = float(current_price)
+        current_sl = float(self.position.get("stop_loss", 0.0) or 0.0)
+
+        if side == "long":
+            profit_pct = (current_price - entry_price) / entry_price * 100.0
+            if profit_pct <= 0.5:
+                return {"adjusted": False, "reason": "Profit below trailing threshold", "profit_pct": profit_pct}
+
+            if profit_pct > 2.0:
+                candidate_sl = entry_price * 1.01
+            elif profit_pct > 1.0:
+                candidate_sl = entry_price * 1.003
+            else:
+                candidate_sl = entry_price
+
+            new_sl = max(current_sl, candidate_sl) if current_sl > 0 else candidate_sl
+
+        else:
+            profit_pct = (entry_price - current_price) / entry_price * 100.0
+            if profit_pct <= 0.5:
+                return {"adjusted": False, "reason": "Profit below trailing threshold", "profit_pct": profit_pct}
+
+            if profit_pct > 2.0:
+                candidate_sl = entry_price * 0.99
+            elif profit_pct > 1.0:
+                candidate_sl = entry_price * 0.997
+            else:
+                candidate_sl = entry_price
+
+            new_sl = min(current_sl, candidate_sl) if current_sl > 0 else candidate_sl
+
+        if current_sl > 0 and abs(new_sl - current_sl) < 1e-8:
+            return {"adjusted": False, "reason": "No tighter SL", "profit_pct": profit_pct, "stop_loss": current_sl}
+
+        self.position["stop_loss"] = float(round(new_sl, 4))
+        return {
+            "adjusted": True,
+            "reason": "DYNAMIC_TRAILING_STOP",
+            "profit_pct": profit_pct,
+            "old_stop_loss": current_sl,
+            "new_stop_loss": float(round(new_sl, 4)),
+        }
 
     def dynamic_adjust_stop_loss(self, symbol: str, historical_prices: list, atr: float) -> Dict:
         if not self.position or self.position.get("symbol") != symbol:

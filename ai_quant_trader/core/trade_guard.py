@@ -204,31 +204,60 @@ class TradeGuard:
         }
     
     def _check_min_hold_time(self, symbol: str, position_state: Dict) -> Dict:
+        """持仓最短时间规则（秒级）+ 盈利提前平仓 + 强趋势延长持仓。"""
         metadata = self.position_metadata.get(symbol, {})
         entry_time = metadata.get("entry_time")
-        expected_hold = metadata.get("expected_hold_minutes", 30)
-        
+
         if not entry_time:
             return {"allowed": True, "reason": "No entry time recorded"}
-        
-        hold_minutes = (datetime.now() - entry_time).total_seconds() / 60
-        
-        if hold_minutes < expected_hold:
-            remaining = expected_hold - hold_minutes
+
+        hold_seconds = (datetime.now() - entry_time).total_seconds()
+
+        # 基础最短持仓：120秒
+        required_hold_seconds = 120
+
+        # 趋势强则延长持仓（额外+120秒）
+        trend_strength = str(position_state.get("trend_strength", "normal")).lower()
+        if trend_strength in ["strong", "very_strong", "high"]:
+            required_hold_seconds += 120
+
+        # 净利润（已扣手续费）>0 允许提前平仓
+        pnl = float(position_state.get("current_pnl", position_state.get("pnl", 0.0)) or 0.0)
+        fees = float(position_state.get("fees", 0.0) or 0.0)
+        net_profit = pnl - fees
+
+        if hold_seconds < required_hold_seconds and net_profit <= 0:
+            remaining_seconds = required_hold_seconds - hold_seconds
             logger.info(
                 f"[{symbol}] MIN_HOLD_ENFORCED: "
-                f"{hold_minutes:.1f}min held, {expected_hold}min required, "
-                f"{remaining:.1f}min remaining"
+                f"{hold_seconds:.0f}s held, {required_hold_seconds}s required, "
+                f"{remaining_seconds:.0f}s remaining, net_profit={net_profit:.4f}"
             )
             return {
                 "allowed": False,
                 "reason": "MIN_HOLD_TIME_NOT_MET",
-                "held_minutes": hold_minutes,
-                "required_minutes": expected_hold,
-                "remaining_minutes": remaining
+                "held_seconds": hold_seconds,
+                "required_seconds": required_hold_seconds,
+                "remaining_seconds": remaining_seconds,
+                "net_profit": net_profit,
             }
-        
-        return {"allowed": True, "reason": "Min hold time satisfied"}
+
+        if hold_seconds < required_hold_seconds and net_profit > 0:
+            return {
+                "allowed": True,
+                "reason": "EARLY_CLOSE_ALLOWED_BY_NET_PROFIT",
+                "held_seconds": hold_seconds,
+                "required_seconds": required_hold_seconds,
+                "net_profit": net_profit,
+            }
+
+        return {
+            "allowed": True,
+            "reason": "Min hold time satisfied",
+            "held_seconds": hold_seconds,
+            "required_seconds": required_hold_seconds,
+            "net_profit": net_profit,
+        }
     
     def _check_trend_confirmation(self, symbol: str, decision: Dict, position_state: Dict) -> Dict:
         current_side = position_state.get("side", "long")
