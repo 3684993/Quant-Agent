@@ -1,0 +1,7 @@
+binance-futures-connector
+pandas
+numpy
+python-dotenv
+requests
+pysocks
+psutil
