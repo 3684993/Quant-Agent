@@ -7,6 +7,7 @@ from datetime import datetime
 from typing import Dict, List, Optional
 
 from core.logger import logger
+from config.settings import settings
 
 
 class ExecutionPlanner:
@@ -20,11 +21,11 @@ class ExecutionPlanner:
 
     def __init__(
         self,
-        min_trade_size: float = 0.005,
-        max_trade_size: float = 0.02,
-        max_pending_orders: int = 4,
-        order_timeout_seconds: int = 120,
-        price_step: float = 100.0,
+        min_trade_size: float = settings.PARAMS.get("min_trade_size", 0.005),
+        max_trade_size: float = settings.PARAMS.get("max_trade_size", 0.02),
+        max_pending_orders: int = settings.PARAMS.get("max_orders", 4),
+        order_timeout_seconds: int = settings.PARAMS.get("order_timeout", 180),
+        price_step: float = settings.PARAMS.get("price_gap", 100.0),
     ) -> None:
         self.min_trade_size = float(min_trade_size)
         self.max_trade_size = float(max_trade_size)
@@ -64,6 +65,7 @@ class ExecutionPlanner:
         target_size: float,
         base_price: float,
         remaining_size: float,
+        current_price: Optional[float] = None,
     ) -> List[Dict]:
         """拆单：优先按 min_trade_size 拆分，最多 4 单，且每单不超过 max_trade_size。"""
         qty = max(0.0, min(float(remaining_size), self.max_position))
@@ -97,6 +99,11 @@ class ExecutionPlanner:
         for idx, (size, price) in enumerate(zip(sizes, price_levels), start=1):
             if not self.validate_order_size(size):
                 return []
+            if current_price is not None:
+                distance_max = float(settings.PARAMS.get("distance_max", 400))
+                if abs(float(price) - float(current_price)) > distance_max:
+                    logger.warning("ORDER_BLOCKED_MAX_DISTANCE: %s price=%.2f current=%.2f", symbol, float(price), float(current_price))
+                    continue
             orders.append(
                 {
                     "symbol": symbol,

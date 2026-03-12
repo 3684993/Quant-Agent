@@ -12,75 +12,63 @@ class OrderManager:
         self.order_executor = order_executor
         self.max_orders = int(settings.PARAMS.get("max_orders", 4))
         self.price_gap = float(settings.PARAMS.get("price_gap", 100))
-        self.order_timeout = int(settings.PARAMS.get("order_timeout", 120))
-        self.too_far_distance = float(settings.PARAMS.get("too_far_distance", 500.0))
+        self.order_timeout = int(settings.PARAMS.get("order_timeout", 180))
+        self.distance_cancel = float(settings.PARAMS.get("distance_cancel", 300.0))
+        self.distance_max = float(settings.PARAMS.get("distance_max", 400.0))
         self.market_analyzer = market_analyzer
         self.last_trend_by_symbol: Dict[str, str] = {}
-
-        # 防止取消循环：symbol -> {reason, cancel_time}
         self.cancel_history: Dict[str, Dict] = {}
         self.cancel_cooldown_seconds = 300
 
     def inspect_all_orders(self, symbol: str, intended_side: Optional[str] = None) -> Dict:
         orders = self.order_executor.get_existing_orders(symbol) or []
-        if len(orders) > self.max_orders:
-            logger.warning(f"ORDER_SPLIT_EXECUTED: {symbol} existing_orders={len(orders)} > {self.max_orders}")
+        managed_orders = self._build_managed_orders(symbol, orders)
 
-        # 仅统计有效限价价格（市价单/无价格单跳过）
-        valid_prices = []
-        for o in orders:
-            try:
-                p = float(o.get("price", 0.0) or 0.0)
-            except Exception:
-                p = 0.0
-            if p > 0:
-                valid_prices.append(p)
-        valid_prices.sort()
+        if len(managed_orders) > self.max_orders:
+            logger.warning("ORDER_SPLIT_EXECUTED: %s existing_orders=%d > %d", symbol, len(managed_orders), self.max_orders)
+
+        valid_prices = sorted([o["price"] for o in managed_orders if o["price"] > 0])
         min_gap = min([abs(valid_prices[i + 1] - valid_prices[i]) for i in range(len(valid_prices) - 1)]) if len(valid_prices) > 1 else 0.0
 
-        current_price = float(self.order_executor.get_current_price(symbol) or 0.0)
         too_far_ids: List[str] = []
         low_prob_ids: List[str] = []
         wrong_dir_ids: List[str] = []
+        recommendations: List[str] = []
 
-        for o in orders:
-            oid = o.get("order_id", "unknown")
-
+        for o in managed_orders:
             if intended_side and str(o.get("side", "")).upper() != intended_side.upper():
-                wrong_dir_ids.append(oid)
+                wrong_dir_ids.append(o["order_id"])
 
-            # 关键修复：距离必须使用订单 price，严禁用 order_id
-            try:
-                order_price = float(o.get("price", 0.0) or 0.0)
-            except Exception:
-                order_price = 0.0
-
-            # 市价单/无价格订单跳过距离检查
-            if order_price <= 0 or current_price <= 0:
+            if o["price"] <= 0 or o["distance"] is None:
                 continue
 
-            order_distance = abs(order_price - current_price)
             logger.info(
-                f"ORDER_DISTANCE_CHECK: {symbol} order={oid} price={order_price:.2f} "
-                f"current={current_price:.2f} distance={order_distance:.2f}"
+                "ORDER_DISTANCE_CHECK: %s order=%s price=%.2f current=%.2f distance=%.2f",
+                symbol,
+                o["order_id"],
+                o["price"],
+                o["current_price"],
+                o["distance"],
             )
 
-            # 每5秒巡检时仅 distance>500 才取消
-            if order_distance > self.too_far_distance:
-                logger.warning(f"ORDER_DISTANCE_TOO_FAR: {symbol} order={oid} distance={order_distance:.2f}")
-                too_far_ids.append(oid)
+            if o["distance"] > self.distance_cancel:
+                too_far_ids.append(o["order_id"])
+                recommendations.append(f"order={o['order_id']} 距离过远({o['distance']:.1f})")
 
-            prob = self._estimate_fill_probability(order_price, current_price, str(o.get("side", "BUY")))
+            prob = self._estimate_fill_probability(o["price"], o["current_price"], str(o.get("side", "BUY")))
             if prob < 0.3:
-                low_prob_ids.append(oid)
+                low_prob_ids.append(o["order_id"])
 
-        stale_ids = self._find_stale_orders(orders)
+        stale_ids = self._find_stale_orders(managed_orders)
         trend_changed = self._detect_trend_change(symbol)
+        if trend_changed:
+            recommendations.append("趋势方向变化，建议撤销未成交订单")
 
         return {
             "success": True,
             "symbol": symbol,
-            "total_orders": len(orders),
+            "total_orders": len(managed_orders),
+            "managed_orders": managed_orders,
             "min_gap": min_gap,
             "gap_ok": min_gap >= self.price_gap if len(valid_prices) > 1 else True,
             "wrong_direction_order_ids": wrong_dir_ids,
@@ -88,6 +76,7 @@ class OrderManager:
             "low_probability_order_ids": low_prob_ids,
             "stale_order_ids": stale_ids,
             "trend_changed": trend_changed,
+            "recommendations": recommendations,
         }
 
     def can_create_orders(self, symbol: str) -> bool:
@@ -98,8 +87,11 @@ class OrderManager:
         elapsed = (datetime.now() - info["cancel_time"]).total_seconds()
         if elapsed < self.cancel_cooldown_seconds:
             logger.warning(
-                f"ORDER_CANCEL_REASON: {symbol} cooldown_active reason={info['reason']} "
-                f"elapsed={elapsed:.0f}s<{self.cancel_cooldown_seconds}s"
+                "ORDER_CANCEL_REASON: %s cooldown_active reason=%s elapsed=%.0fs<%ds",
+                symbol,
+                info["reason"],
+                elapsed,
+                self.cancel_cooldown_seconds,
             )
             return False
         return True
@@ -109,33 +101,65 @@ class OrderManager:
 
         cancel_with_reason: List[tuple] = []
         for oid in report.get("too_far_order_ids", []):
-            cancel_with_reason.append((oid, "DISTANCE_TOO_FAR"))
+            cancel_with_reason.append((oid, "DISTANCE"))
         for oid in report.get("stale_order_ids", []):
             cancel_with_reason.append((oid, "TIMEOUT"))
+        if report.get("trend_changed"):
+            for mo in report.get("managed_orders", []):
+                cancel_with_reason.append((mo["order_id"], "TREND_CHANGED"))
 
-        unique = {}
+        unique: Dict[str, str] = {}
         for oid, reason in cancel_with_reason:
-            unique[oid] = reason
+            unique[str(oid)] = reason
+
         cancel_ids = list(unique.keys())
+        cleanup_actions: List[str] = []
         if cancel_ids:
             self.order_executor.cancel_orders(symbol, cancel_ids)
             last_reason = list(unique.values())[-1]
-            self.cancel_history[symbol] = {
-                "reason": last_reason,
-                "cancel_time": datetime.now(),
-            }
-            logger.warning(f"ORDER_CANCEL_REASON: {symbol} reason={last_reason} count={len(cancel_ids)}")
-            for oid, reason in cancel_with_reason:
-                if reason == "TIMEOUT":
-                    logger.info(f"STALE_ORDER_CANCELLED: {symbol} order={oid}")
+            self.cancel_history[symbol] = {"reason": last_reason, "cancel_time": datetime.now()}
 
-        return {"success": True, "cancelled": cancel_ids}
+            for oid in cancel_ids:
+                reason = unique[oid]
+                if reason == "DISTANCE":
+                    logger.warning("ORDER_CANCEL_DISTANCE: %s order=%s", symbol, oid)
+                elif reason == "TIMEOUT":
+                    logger.warning("ORDER_CANCEL_TIMEOUT: %s order=%s", symbol, oid)
+                cleanup_actions.append(f"cancel {oid} ({reason})")
+
+        return {"success": True, "cancelled": cancel_ids, "cleanup_actions": cleanup_actions}
+
+    def _build_managed_orders(self, symbol: str, orders: List[Dict]) -> List[Dict]:
+        current_price = float(self.order_executor.get_current_price(symbol) or 0.0)
+        managed_orders: List[Dict] = []
+        for o in orders:
+            try:
+                price = float(o.get("price", 0.0) or 0.0)
+            except Exception:
+                price = 0.0
+            timestamp = o.get("time") or o.get("timestamp")
+            order_id = str(o.get("order_id", "unknown"))
+            size = float(o.get("size", o.get("quantity", 0.0)) or 0.0)
+            distance = abs(price - current_price) if price > 0 and current_price > 0 else None
+            managed_orders.append(
+                {
+                    "order_id": order_id,
+                    "price": price,
+                    "size": size,
+                    "timestamp": timestamp,
+                    "distance": distance,
+                    "symbol": symbol,
+                    "side": str(o.get("side", "")),
+                    "current_price": current_price,
+                }
+            )
+        return managed_orders
 
     def _find_stale_orders(self, orders: List[Dict]) -> List[str]:
         now = datetime.now()
         stale = []
         for o in orders:
-            ts = o.get("time") or o.get("timestamp")
+            ts = o.get("timestamp")
             t = None
             if isinstance(ts, (int, float)):
                 t = datetime.fromtimestamp(ts / 1000 if ts > 1e11 else ts)

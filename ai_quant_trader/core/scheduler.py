@@ -26,6 +26,8 @@ from core.trade_guard import TradeGuard
 from config.settings import settings
 from core.target_position_engine import TargetPositionEngine
 from core.risk_engine import RiskEngine
+from core.entry_timing_filter import EntryTimingFilter
+from core.order_adjuster import OrderAdjuster
 
 
 class Scheduler:
@@ -76,6 +78,9 @@ class Scheduler:
         self.target_position_engine = TargetPositionEngine()
         
         self.risk_engine = RiskEngine(self.position_manager, self.risk_manager)
+        self.entry_timing_filter = EntryTimingFilter()
+        self.order_manager = None
+        self.order_adjuster = None
 
         self.trade_guard = TradeGuard(
             min_order_interval_seconds=settings.min_order_interval_seconds,
@@ -283,6 +288,20 @@ class Scheduler:
                     market_summary=market_summary.get("market_summary", {}),
                 )
 
+                # 入场时机过滤（仅影响开仓/加仓执行，不改变AI逻辑）
+                action_for_timing = str(execution_decision.get("action", "hold"))
+                if action_for_timing in ["open_long", "open_short", "add_position"]:
+                    trend_for_timing = "long" if action_for_timing in ["open_long", "add_position"] else "short"
+                    timing = self.entry_timing_filter.evaluate(
+                        symbol=symbol,
+                        trend=trend_for_timing,
+                        current_price=current_price,
+                        indicators_1m=indicators,
+                    )
+                    if not timing.get("allow_entry", True):
+                        execution_decision["action"] = "hold"
+                        execution_decision["timing_state"] = timing.get("state")
+
                 # 使用新的格式化输出 - AI决策（显示目标仓位）
                 formatted_output.print_ai_decision(symbol, execution_decision)
 
@@ -310,6 +329,7 @@ class Scheduler:
                         # 检查market_analyzer是否存在，如果不存在则传入None
                         market_analyzer = getattr(self, 'market_analyzer', None)
                         self.order_manager = OrderManager(self.order_executor, market_analyzer)
+                        self.order_adjuster = OrderAdjuster(self.order_manager, self.order_executor)
                     
                     # 2. 全面巡查委托订单
                     inspection_result = self.order_manager.inspect_all_orders(symbol)
@@ -507,8 +527,22 @@ class Scheduler:
                 for symbol in self.symbols:
                     # 1) 订单巡检与委托管理
                     if hasattr(self, 'order_manager') and self.order_manager and self.order_executor:
-                        self.order_manager.inspect_all_orders(symbol)
+                        inspection = self.order_manager.inspect_all_orders(symbol)
                         self.order_manager.auto_cleanup_orders(symbol)
+                        if self.order_adjuster:
+                            market_summary = {}
+                            try:
+                                market_summary = self.market_data.get_market_summary(symbol)
+                            except Exception:
+                                market_summary = {}
+                            summary = market_summary.get("market_summary", {}) if isinstance(market_summary, dict) else {}
+                            self.order_adjuster.adjust_orders(
+                                symbol=symbol,
+                                trend_direction=str(summary.get("trend", "neutral")),
+                                trend_strength=float(summary.get("trend_strength", 0) or 0),
+                                pullback_detected=not inspection.get("gap_ok", True),
+                                trend_changed=bool(inspection.get("trend_changed", False)),
+                            )
 
                     # 2) 持仓管理
                     if self.position_manager and self.binance_client:

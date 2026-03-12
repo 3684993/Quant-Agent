@@ -776,7 +776,7 @@ class OrderExecutor:
         base_price = decision.get("entry_range", [current_price])[0]
         
         orders = self.execution_planner.generate_split_orders(
-            symbol, side, target_size, base_price, remaining_size
+            symbol, side, target_size, base_price, remaining_size, current_price=current_price
         )
         
         if not orders:
@@ -859,7 +859,7 @@ class OrderExecutor:
         base_price = decision.get("entry_range", [current_price])[0]
         
         orders = self.execution_planner.generate_split_orders(
-            symbol, side, target_size, base_price, remaining_size
+            symbol, side, target_size, base_price, remaining_size, current_price=current_price
         )
         
         if not orders:
@@ -1049,13 +1049,13 @@ class OrderExecutor:
     def get_current_price(self, symbol: str) -> float:
         """获取当前市场价格"""
         try:
-            # 从市场数据服务获取最新价格
             if hasattr(self, 'market_data') and self.market_data:
-                return self.market_data.get('price', 0)
-            
-            # 备用方法：从交易所获取最新价格
-            # 这里可以通过查询最近的成交记录或 ticker 获取
-            return 0.0
+                maybe = self.market_data.get('price', 0) if isinstance(self.market_data, dict) else 0
+                if maybe:
+                    return float(maybe)
+
+            ticker = self.client.client.ticker_price(symbol=symbol)
+            return float(ticker.get('price', 0) or 0)
         except Exception as e:
             logger.error(f"获取当前价格失败：{e}")
             return 0.0

@@ -35,17 +35,31 @@ class Settings:
         self.max_drawdown_pct = float(os.getenv("MAX_DRAWDOWN_PCT", "-8.0"))
         self.max_loss_pct = float(os.getenv("MAX_LOSS_PCT", "-10.0"))
         
+        self.min_trade_size = float(os.getenv("MIN_TRADE_SIZE", "0.005"))
+        self.max_trade_size = float(os.getenv("MAX_TRADE_SIZE", "0.02"))
+        self.max_orders = int(os.getenv("MAX_ORDERS", "4"))
+        self.order_adjust_interval = int(os.getenv("ORDER_ADJUST_INTERVAL", "5"))
+        self.order_timeout = int(os.getenv("ORDER_TIMEOUT", "180"))
+        self.distance_cancel = float(os.getenv("DISTANCE_CANCEL", "300"))
+        self.distance_max = float(os.getenv("DISTANCE_MAX", "400"))
+        self.price_gap = float(os.getenv("PRICE_GAP", "100"))
+
         # 新增交易执行参数配置
         self.PARAMS = {
             "max_trade_size": float(os.getenv("MAX_TRADE_SIZE", "0.02")),
             "min_trade_size": float(os.getenv("MIN_TRADE_SIZE", "0.005")),
+            "order_adjust_interval": int(os.getenv("ORDER_ADJUST_INTERVAL", "5")),
+            "order_adjust_timeout": int(os.getenv("ORDER_ADJUST_TIMEOUT", "120")),
+            "distance_cancel": float(os.getenv("DISTANCE_CANCEL", "300")),
+            "distance_max": float(os.getenv("DISTANCE_MAX", "400")),
+            "trend_strength_threshold": float(os.getenv("TREND_STRENGTH_THRESHOLD", "0.7")),
             "min_hold_time": int(os.getenv("MIN_HOLD_TIME", "120")),
             "max_pending_orders": int(os.getenv("MAX_PENDING_ORDERS", "4")),
-            "order_timeout": int(os.getenv("ORDER_TIMEOUT", "120")),
+            "order_timeout": int(os.getenv("ORDER_TIMEOUT", "180")),
             "price_step_ratio": float(os.getenv("PRICE_STEP_RATIO", "0.0005")),
             "max_orders": int(os.getenv("MAX_ORDERS", "4")),
             "price_gap": float(os.getenv("PRICE_GAP", "100")),
-            "too_far_distance": float(os.getenv("TOO_FAR_DISTANCE", "500")),
+            "too_far_distance": float(os.getenv("TOO_FAR_DISTANCE", "300")),
             "signal_confirmations": int(os.getenv("SIGNAL_CONFIRMATIONS", "3"))
         }
         
