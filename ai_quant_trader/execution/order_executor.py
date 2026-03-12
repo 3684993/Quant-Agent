@@ -707,6 +707,8 @@ class OrderExecutor:
                 }
             
             # 委托管理前置巡检（主周期内也会巡检，这里做执行前最终校验）
+            if not self.order_manager.can_create_orders(symbol):
+                return {"success": True, "action": "hold", "message": "cancel cooldown active"}
             try:
                 self.order_manager.inspect_all_orders(symbol, intended_side=("BUY" if action in ["open_long", "add_position"] else "SELL" if action in ["open_short"] else None))
                 self.order_manager.auto_cleanup_orders(symbol)

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import datetime
 from execution.position_manager import PositionManager as _ExecutionPositionManager
 from core.logger import logger
 
@@ -7,9 +8,21 @@ from core.logger import logger
 class PositionManager(_ExecutionPositionManager):
     """Core PositionManager with unified access contract."""
 
+    def calculate_hold_minutes(self, binance_client=None) -> int:
+        if not self.position:
+            return 0
+        if not self.position.get("entry_time"):
+            self.position["entry_time"] = datetime.now()
+        hold_minutes = int((datetime.now() - self.position["entry_time"]).total_seconds() / 60)
+        self.position["hold_minutes"] = hold_minutes
+        logger.info(f"POSITION_HOLD_TIME: {self.position.get('symbol', 'N/A')} 持仓：{hold_minutes:.1f} 分钟")
+        return hold_minutes
+
     def update_position(self, *args, **kwargs):
         result = super().update_position(*args, **kwargs)
         if self.position:
+            if not self.position.get("entry_time"):
+                self.position["entry_time"] = datetime.now()
             self.position["size"] = float(self.position.get("position_size", 0.0))
             self.position["unrealized_pnl"] = float(self.position.get("current_pnl", self.position.get("pnl", 0.0)))
             self.position["scale_in_count"] = int(self.position.get("scale_in_count", 1))

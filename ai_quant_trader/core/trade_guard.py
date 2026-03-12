@@ -127,15 +127,24 @@ class TradeGuard:
                     "reason": "NO_POSITION_TO_ADD"
                 }
             
-            pnl_pct = position_state.get("current_pnl_pct", 0)
-            if pnl_pct < 0:
-                logger.info(f"[{symbol}] add_position rejected - position not profitable ({pnl_pct:.2f}%)")
+            pnl_pct = float(position_state.get("current_pnl_pct", 0) or 0)
+            ai_confidence = float(decision.get("confidence", 0) or 0)
+
+            # 新规则：允许小幅亏损加仓（>-0.5%），高置信度>0.75可覆盖该限制
+            allow_add_position = pnl_pct > -0.5
+            ignore_small_loss_rule = ai_confidence > 0.75
+
+            if not allow_add_position and not ignore_small_loss_rule:
+                logger.info(f"[{symbol}] add_position rejected - pnl too low ({pnl_pct:.2f}%), conf={ai_confidence:.2f}")
                 return {
                     "valid": True,
                     "action": "hold",
                     "modified": True,
                     "reason": "POSITION_NOT_PROFITABLE"
                 }
+
+            if ignore_small_loss_rule and pnl_pct <= -0.5:
+                logger.warning(f"TRADEGUARD_OVERRIDE: {symbol} add_position allowed by confidence={ai_confidence:.2f} with pnl={pnl_pct:.2f}%")
             
             can_place = self.can_place_order(symbol, binance_client)
             if not can_place["allowed"]:
