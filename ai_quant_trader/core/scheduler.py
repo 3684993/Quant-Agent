@@ -438,6 +438,7 @@ class Scheduler:
                         symbol,
                         target_size,
                     )
+                    formatted_output.print_execution_result(symbol, {"action": "hold", "success": True})
                     self._log_stage(symbol, "execution", stage_start)
                     self._log_stage(symbol, "cycle_total", symbol_cycle_start)
                     continue
@@ -448,6 +449,7 @@ class Scheduler:
                         action,
                         target_size,
                     )
+                    formatted_output.print_execution_result(symbol, {"action": "hold", "success": True})
                     execution_decision["action"] = "hold"
                     self._log_stage(symbol, "execution", stage_start)
                     self._log_stage(symbol, "cycle_total", symbol_cycle_start)
@@ -490,6 +492,7 @@ class Scheduler:
                         action,
                         str(entry_risk.get("reason", "unknown")),
                     )
+                    formatted_output.print_execution_result(symbol, {"action": "hold", "success": True})
 
                     if exec_result.get("completed"):
                         if float(exec_result.get("filled_size", 0) or 0) > 0:
@@ -645,6 +648,13 @@ class Scheduler:
         logger.info(f"Trading Environment: {settings.trading_env}")
         logger.info(f"TradeGuard: min_interval={settings.min_order_interval_seconds}s")
         logger.info("="*60)
+
+        try:
+            if self.trade_memory:
+                self.trade_memory.clear_history()
+                logger.info("[LOG_CLEANUP] trade_memory_reset=1")
+        except Exception as e:
+            logger.error(f"[SYSTEM_ERROR] trade_memory_reset_failed: {e}")
         
         self._running = True
         
