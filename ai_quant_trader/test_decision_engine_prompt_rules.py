@@ -11,10 +11,10 @@ class MockLLM:
 
 def test_entry_range_must_cover_current_price_and_follow_formula():
     engine = DecisionEngine(llm_client=MockLLM({
-        "action": "open_short",
+        "direction": "short",
+        "target_size": 0.02,
         "current_price": 70131,
         "entry_range": [70050, 70200],
-        "size": [0.01, 0.02],
         "stop_loss": 70300,
         "take_profit": 69800,
         "expected_hold_minutes": 60,
@@ -45,5 +45,5 @@ def test_output_contains_required_fields():
     }
 
     result = engine.generate_trade_decision(context)
-    for key in ["current_price", "entry_range", "stop_loss", "take_profit", "confidence"]:
+    for key in ["direction", "target_size", "current_price", "entry_range", "stop_loss", "take_profit", "confidence"]:
         assert key in result

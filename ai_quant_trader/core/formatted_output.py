@@ -112,8 +112,9 @@ class FormattedOutput:
         
     def print_ai_decision(self, symbol: str, decision: Dict):
         """打印AI决策信息"""
-        action = decision.get("action", "hold")
-        
+        action = decision.get("action")
+        direction = decision.get("direction", "flat")
+
         action_emoji = {
             "open_long": "🟢开多",
             "open_short": "🔴开空", 
@@ -121,18 +122,20 @@ class FormattedOutput:
             "close_position": "💸平仓",
             "reverse_position": "🔄反转",
             "hold": "⏸️持仓"
-        }.get(action, "⏸️持仓")
+        }.get(action, {"long": "🟢目标做多", "short": "🔴目标做空", "flat": "⏸️目标空仓"}.get(direction, "⏸️持仓"))
         
         entry_range = decision.get("entry_range", [0, 0])
         stop_loss = decision.get("stop_loss", 0)
         take_profit = decision.get("take_profit", 0)
         confidence = decision.get("confidence", 0.5)
+        target_size = decision.get("target_size", 0)
         
         decision_info = (
             f"🤖 AI决策 | {action_emoji} | "
             f"入场区间: {entry_range[0]:,.2f}-{entry_range[1]:,.2f} | "
             f"止损: {stop_loss:,.2f} | "
             f"止盈: {take_profit:,.2f} | "
+            f"目标仓位: {float(target_size):.4f} | "
             f"置信度: {confidence:.1%}"
         )
         print(decision_info)

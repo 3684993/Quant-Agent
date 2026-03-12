@@ -42,7 +42,9 @@ class Settings:
             "min_hold_time": int(os.getenv("MIN_HOLD_TIME", "120")),
             "max_pending_orders": int(os.getenv("MAX_PENDING_ORDERS", "4")),
             "order_timeout": int(os.getenv("ORDER_TIMEOUT", "120")),
-            "price_step_ratio": float(os.getenv("PRICE_STEP_RATIO", "0.0005"))
+            "price_step_ratio": float(os.getenv("PRICE_STEP_RATIO", "0.0005")),
+            "max_orders": int(os.getenv("MAX_ORDERS", "4")),
+            "price_gap": float(os.getenv("PRICE_GAP", "100"))
         }
         
     def validate(self):

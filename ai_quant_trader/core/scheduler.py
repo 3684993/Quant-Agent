@@ -24,6 +24,7 @@ from learning.reward_engine import RewardEngine
 from learning.strategy_optimizer import StrategyOptimizer
 from core.trade_guard import TradeGuard
 from config.settings import settings
+from core.target_position_engine import TargetPositionEngine
 
 
 class Scheduler:
@@ -71,6 +72,7 @@ class Scheduler:
         self._cycle_count = 0
         
         self._last_position_state = None
+        self.target_position_engine = TargetPositionEngine()
         
         self.trade_guard = TradeGuard(
             min_order_interval_seconds=settings.min_order_interval_seconds,
@@ -264,25 +266,32 @@ class Scheduler:
                     "position": position_state
                 }
                 
-                decision = self.decision_engine.generate_trade_decision(context)
-                
-                # 使用新的格式化输出 - AI决策
-                formatted_output.print_ai_decision(symbol, decision)
-                
+                ai_decision = self.decision_engine.generate_trade_decision(context)
+
+                execution_decision = self.target_position_engine.update_target_position(
+                    symbol=symbol,
+                    ai_decision=ai_decision,
+                    position_state=position_state,
+                    market_summary=market_summary.get("market_summary", {}),
+                )
+
+                # 使用新的格式化输出 - AI决策（显示目标仓位）
+                formatted_output.print_ai_decision(symbol, execution_decision)
+
                 position_state_for_guard = dict(position_state)
                 position_state_for_guard["trend_strength"] = close_analysis.get("strength_level", "normal") if position_state.get("has_position") else "normal"
 
                 validated = self.trade_guard.validate_decision(
-                    decision, symbol, position_state_for_guard, self.binance_client
+                    execution_decision, symbol, position_state_for_guard, self.binance_client
                 )
-                
+
                 if validated.get("modified"):
                     formatted_output.print_warning(
-                        f"决策被TradeGuard修改: {decision.get('action')} -> {validated.get('action')} ({validated.get('reason', '未知')})"
+                        f"决策被TradeGuard修改: {execution_decision.get('action')} -> {validated.get('action')} ({validated.get('reason', '未知')})"
                     )
-                    decision["action"] = validated["action"]
-                
-                entry_risk = self.risk_manager.check_entry_risk(decision, position_state)
+                    execution_decision["action"] = validated["action"]
+
+                entry_risk = self.risk_manager.check_entry_risk(execution_decision, position_state)
                 
                 if entry_risk.get("status") == "approved" and self.order_executor:
                     # 使用独立的委托管理模块进行全面巡查
@@ -329,7 +338,7 @@ class Scheduler:
                     else:
                         # 5. 使用智能执行决策（只有在检查通过后才执行）
                         exec_result = self.order_executor.execute_intelligent_decision(
-                            decision, symbol, current_price, position_state
+                            execution_decision, symbol, current_price, position_state
                         )
                     
                     # 使用新的格式化输出 - 执行结果
@@ -354,15 +363,15 @@ class Scheduler:
                                     entry_price=avg_price,
                                     side=side,
                                     expected_hold_minutes=decision.get("expected_hold_minutes", 60),
-                                    stop_loss=decision.get("stop_loss", 0),
-                                    take_profit=decision.get("take_profit", 0)
+                                    stop_loss=execution_decision.get("stop_loss", 0),
+                                    take_profit=execution_decision.get("take_profit", 0)
                                 )
                                 
                                 # 显示止盈止损信息
                                 if self.order_executor:
                                     sl_tp_result = self.order_executor.set_stop_loss_take_profit(
-                                        symbol, side, decision.get("stop_loss", 0), 
-                                        decision.get("take_profit", 0), total_size
+                                        symbol, side, execution_decision.get("stop_loss", 0), 
+                                        execution_decision.get("take_profit", 0), total_size
                                     )
                                     formatted_output.print_sl_tp_info(symbol, sl_tp_result)
                         

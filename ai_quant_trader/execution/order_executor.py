@@ -669,10 +669,11 @@ class OrderExecutor:
                     "message": "No action required"
                 }
             
-            # 获取目标仓位大小
-            target_size = decision.get("size", [0.01])
+            # 获取目标仓位大小（由 TargetPositionEngine 传入）
+            target_size = decision.get("target_size", decision.get("size", [0.01]))
             if isinstance(target_size, list):
                 target_size = target_size[0] if target_size else 0.01
+            target_size = float(target_size or 0.01)
             
             # 获取已成交数量
             filled_size = position_state.get("position_size", 0)
@@ -993,7 +994,7 @@ class OrderExecutor:
         # 使用智能开仓逻辑
         return self._execute_open_position(
             decision["action"], decision, symbol, current_price, {
-                "target_size": decision.get("size", [0.01])[0],
+                "target_size": float(decision.get("target_size", decision.get("size", [0.01])[0] if isinstance(decision.get("size", [0.01]), list) else decision.get("size", 0.01))),
                 "remaining_size": decision.get("size", [0.01])[0],
                 "target_reached": False,
                 "can_trade": True

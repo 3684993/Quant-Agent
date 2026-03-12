@@ -86,7 +86,7 @@ REQUIRED FIELDS:
 - take_profit
 
 OUTPUT FORMAT (all keys required):
-{"action":"open_long|open_short|add_position|close_position|hold","current_price":70131.0,"entry_range":[70031.0,70231.0],"size":[0.01,0.02],"stop_loss":69900.0,"take_profit":70400.0,"expected_hold_minutes":60,"confidence":0.8}
+{"direction":"long|short|flat","target_size":0.02,"confidence":0.8,"current_price":70131.0,"entry_range":[70031.0,70231.0],"stop_loss":69900.0,"take_profit":70400.0}
 """
 
     def _build_prompt(self, context: Dict) -> str:
@@ -123,77 +123,28 @@ For current data: current_price={price:.2f}, ATR={atr:.2f}, computed_range=[{for
 JSON:"""
 
     def _validate_decision(self, decision: Dict, context: Dict) -> Dict:
-        position = context.get("position", {}) or {}
         indicators = context.get("indicators", {}) or {}
-        market_summary = context.get("market_summary", {}) or {}
         context_price = float(context.get("price", 0) or 0)
 
-        valid_actions_no_position = ["open_long", "open_short", "hold"]
-        valid_actions_with_position = ["add_position", "close_position", "reverse_position", "hold"]
+        direction = str(decision.get("direction", "flat")).lower()
+        if direction not in ["long", "short", "flat"]:
+            direction = "flat"
 
-        has_position = position.get("has_position", False)
+        target_size = decision.get("target_size", 0.0)
+        if not isinstance(target_size, (int, float)):
+            target_size = 0.0
+        target_size = max(0.0, float(target_size))
 
-        action = decision.get("action", "hold")
-
-        # 检查目标仓位是否已达成
-        if has_position:
-            position_size = position.get("position_size", 0)
-            target_size = position.get("target_size", position_size)
-            progress_pct = (position_size / target_size * 100) if target_size > 0 else 100
-
-            # 如果目标仓位已达成，使用智能平仓决策
-            if progress_pct >= 100:
-                hold_minutes = position.get("hold_minutes", 0)
-
-                # 检查持仓时间是否有效（避免系统重启后时间重置问题）
-                if hold_minutes == 0:
-                    logger.info("TARGET_REACHED_RESTART: 目标仓位已达成但持仓时间未知（可能系统重启），建议平仓")
-                    if action == "add_position":
-                        action = "close_position"
-                else:
-                    close_recommendation = intelligent_close_decision.get_close_recommendation(
-                        position, indicators, market_summary, False
-                    )
-
-                    should_close = close_recommendation.get("should_close", False)
-                    reason = close_recommendation.get("reason", "未知")
-                    priority = close_recommendation.get("priority", 0.5)
-
-                    logger.info(f"智能平仓决策: 持仓{hold_minutes}分钟, 收益{position.get('current_pnl_pct', 0):.2f}%, "
-                                f"建议{'平仓' if should_close else '持仓'}, 原因: {reason}, 优先级: {priority:.2f}")
-
-                    if should_close and priority >= 0.6:
-                        logger.info(f"TARGET_REACHED_SMART_CLOSE: 智能平仓决策 - {reason}")
-                        action = "close_position"
-                    elif action == "add_position":
-                        logger.info("TARGET_REACHED_BLOCK_ADD: 目标仓位已达成但未达平仓条件，阻止加仓")
-                        action = "hold"
-
-        if has_position:
-            if action not in valid_actions_with_position:
-                action = "hold"
-        else:
-            if action not in valid_actions_no_position:
-                action = "hold"
-
-        # 必须输出 current_price
         current_price = decision.get("current_price", context_price)
         if not isinstance(current_price, (int, float)):
             current_price = context_price
         current_price = float(current_price)
 
-        # 必须使用公式计算并确保覆盖 current_price
         atr = float(indicators.get('atr', 0) or 0)
         entry_distance = max(atr * 0.5, 100.0)
         formula_low = round(current_price - entry_distance, 2)
         formula_high = round(current_price + entry_distance, 2)
-
-        # 强制按公式计算入场区间，保证与提示词一致且覆盖当前价
         entry_range = [formula_low, formula_high]
-
-        size = decision.get("size", [0.01, 0.02])
-        if not isinstance(size, list) or len(size) != 2:
-            size = [0.01, 0.02]
 
         stop_loss = decision.get("stop_loss", 0)
         if not isinstance(stop_loss, (int, float)):
@@ -203,29 +154,20 @@ JSON:"""
         if not isinstance(take_profit, (int, float)):
             take_profit = 0
 
-        hold_minutes = decision.get("expected_hold_minutes", 60)
-        if not isinstance(hold_minutes, (int, float)):
-            hold_minutes = 60
-        hold_minutes = max(30, min(120, int(hold_minutes)))
-
         confidence = decision.get("confidence", 0.5)
         if not isinstance(confidence, (int, float)):
             confidence = 0.5
         confidence = max(0, min(1, float(confidence)))
 
-        if action in ["open_long", "open_short"]:
-            if stop_loss == 0 or take_profit == 0:
-                logger.warning(f"Missing SL/TP for {action}, using ProfitOptimizer values")
-
         return {
-            "action": action,
+            "direction": direction,
+            "target_size": target_size,
             "current_price": current_price,
             "entry_range": entry_range,
-            "size": size,
-            "stop_loss": stop_loss,
-            "take_profit": take_profit,
-            "expected_hold_minutes": hold_minutes,
-            "confidence": confidence
+            "stop_loss": float(stop_loss),
+            "take_profit": float(take_profit),
+            "confidence": confidence,
+            "expected_hold_minutes": int(decision.get("expected_hold_minutes", 60) or 60)
         }
 
     def _get_default_decision(self, context: Dict) -> Dict:
@@ -233,10 +175,10 @@ JSON:"""
         atr = float((context.get("indicators", {}) or {}).get("atr", 0) or 0)
         entry_distance = max(atr * 0.5, 100.0)
         return {
-            "action": "hold",
+            "direction": "flat",
+            "target_size": 0.0,
             "current_price": current_price,
             "entry_range": [round(current_price - entry_distance, 2), round(current_price + entry_distance, 2)],
-            "size": [0.01, 0.02],
             "stop_loss": 0,
             "take_profit": 0,
             "expected_hold_minutes": 60,
@@ -247,10 +189,10 @@ JSON:"""
         try:
             return (
                 f"[{symbol}] AI Decision: "
-                f"action={decision.get('action', 'hold')} | "
+                f"direction={decision.get('direction', 'flat')} | "
                 f"current_price={decision.get('current_price', 0):.2f} | "
                 f"entry_range={decision.get('entry_range', [0, 0])} | "
-                f"size={decision.get('size', [0.01, 0.02])} | "
+                f"target_size={decision.get('target_size', 0.0):.4f} | "
                 f"SL={decision.get('stop_loss', 0):.2f} | "
                 f"TP={decision.get('take_profit', 0):.2f} | "
                 f"hold={decision.get('expected_hold_minutes', 60)}min | "
