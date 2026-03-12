@@ -59,7 +59,7 @@ class BinanceClient:
         """获取当前活跃订单"""
         try:
             # 添加详细的调试信息
-            logger.info(f"开始查询活跃订单，交易对：{symbol if symbol else '全部'}")
+            logger.debug(f"开始查询活跃订单，交易对：{symbol if symbol else '全部'}")
             
             # 检查 API 连接状态
             if not self._client:
@@ -70,21 +70,23 @@ class BinanceClient:
             if symbol:
                 # 确保 symbol 格式正确
                 symbol = symbol.upper().replace("/", "")
-                logger.info(f"查询指定交易对活跃订单：{symbol}")
+                logger.debug(f"查询指定交易对活跃订单：{symbol}")
                 
                 # 使用 get_all_orders 方法查询所有订单
-                all_orders = self._client.get_all_orders(symbol=symbol, limit=100)
-                logger.info(f"API 调用成功，返回 {len(all_orders)} 个订单")
+                limit = 10
+                all_orders = self._client.get_all_orders(symbol=symbol, limit=limit)
+                all_orders = list(all_orders)[:limit]
+                logger.debug(f"API 调用成功，limit={limit} 返回 {len(all_orders)} 个订单")
                 
                 # 过滤出活跃订单（NEW 或 PARTIALLY_FILLED 状态）
                 orders = [order for order in all_orders if order.get('status') in ['NEW', 'PARTIALLY_FILLED']]
-                logger.info(f"活跃订单数量：{len(orders)}")
+                logger.debug(f"活跃订单数量：{len(orders)}")
             else:
                 logger.warning("查询所有交易对订单 - 不支持的操作")
                 orders = []
 
             # 详细记录订单信息
-            logger.info(f"交易所 API 返回 {len(orders)} 个活跃订单")
+            logger.debug(f"交易所 API 返回 {len(orders)} 个活跃订单")
             for i, order in enumerate(orders):
                 logger.debug(f"订单{i+1}: ID={order.get('orderId')}, 方向={order.get('side')}, "
                            f"价格={order.get('price')}, 数量={order.get('origQty')}, "

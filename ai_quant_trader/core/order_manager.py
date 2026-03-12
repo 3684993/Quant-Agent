@@ -12,7 +12,7 @@ class OrderManager:
         self.order_executor = order_executor
         self.max_orders = int(settings.PARAMS.get("max_orders", 4))
         self.price_gap = float(settings.PARAMS.get("price_gap", 100))
-        self.order_timeout = int(settings.PARAMS.get("order_timeout", 180))
+        self.order_timeout = 600
         self.distance_cancel = float(settings.PARAMS.get("distance_cancel", 300.0))
         self.distance_max = float(settings.PARAMS.get("distance_max", 400.0))
         self.market_analyzer = market_analyzer
@@ -25,7 +25,7 @@ class OrderManager:
         managed_orders = self._build_managed_orders(symbol, orders)
 
         if len(managed_orders) > self.max_orders:
-            logger.warning("ORDER_SPLIT_EXECUTED: %s existing_orders=%d > %d", symbol, len(managed_orders), self.max_orders)
+            logger.debug("ORDER_COUNT_EXCEED: %s existing_orders=%d > %d", symbol, len(managed_orders), self.max_orders)
 
         valid_prices = sorted([o["price"] for o in managed_orders if o["price"] > 0])
         min_gap = min([abs(valid_prices[i + 1] - valid_prices[i]) for i in range(len(valid_prices) - 1)]) if len(valid_prices) > 1 else 0.0
@@ -42,7 +42,7 @@ class OrderManager:
             if o["price"] <= 0 or o["distance"] is None:
                 continue
 
-            logger.info(
+            logger.debug(
                 "ORDER_DISTANCE_CHECK: %s order=%s price=%.2f current=%.2f distance=%.2f",
                 symbol,
                 o["order_id"],
@@ -86,7 +86,7 @@ class OrderManager:
 
         elapsed = (datetime.now() - info["cancel_time"]).total_seconds()
         if elapsed < self.cancel_cooldown_seconds:
-            logger.warning(
+            logger.debug(
                 "ORDER_CANCEL_REASON: %s cooldown_active reason=%s elapsed=%.0fs<%ds",
                 symbol,
                 info["reason"],
@@ -96,8 +96,8 @@ class OrderManager:
             return False
         return True
 
-    def auto_cleanup_orders(self, symbol: str) -> Dict:
-        report = self.inspect_all_orders(symbol)
+    def auto_cleanup_orders(self, symbol: str, report: Optional[Dict] = None) -> Dict:
+        report = report or self.inspect_all_orders(symbol)
 
         cancel_with_reason: List[tuple] = []
         for oid in report.get("too_far_order_ids", []):
@@ -122,9 +122,9 @@ class OrderManager:
             for oid in cancel_ids:
                 reason = unique[oid]
                 if reason == "DISTANCE":
-                    logger.warning("ORDER_CANCEL_DISTANCE: %s order=%s", symbol, oid)
+                    logger.info("[ORDER_CANCEL] symbol=%s reason=DISTANCE order=%s", symbol, oid)
                 elif reason == "TIMEOUT":
-                    logger.warning("ORDER_CANCEL_TIMEOUT: %s order=%s", symbol, oid)
+                    logger.info("[ORDER_CANCEL] symbol=%s reason=TIMEOUT order=%s", symbol, oid)
                 cleanup_actions.append(f"cancel {oid} ({reason})")
 
         return {"success": True, "cancelled": cancel_ids, "cleanup_actions": cleanup_actions}

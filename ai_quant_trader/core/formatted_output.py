@@ -144,6 +144,17 @@ class FormattedOutput:
         """打印执行结果信息"""
         action = result.get("action", "hold")
         success = result.get("success", False)
+
+        if result.get("in_progress"):
+            state = result.get("state", "UNKNOWN")
+            remaining = result.get("remaining_size", 0)
+            slippage = result.get("slippage", 0)
+            elapsed = result.get("elapsed", 0)
+            print(
+                f"⏳ 执行中 | {symbol} | state={state} | 剩余: {remaining:.4f} | "
+                f"滑点估计: {slippage:.4%} | 用时: {elapsed:.0f}s"
+            )
+            return
         
         if action == "hold" and not result.get("error"):
             print("⚡ 执行结果 | 保持持仓，无操作")

@@ -1,7 +1,55 @@
 import logging
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
+
+
+LOG_ALLOW_TOKENS = [
+    "[AI_DECISION]",
+    "[ANALYSIS]",
+    "ENTRY_TIMING",
+    "ENTRY_MODE",
+    "[EXECUTION]",
+    "EXEC_STATE",
+    "[ORDER_SUBMIT]",
+    "[ORDER_FILLED]",
+    "[ORDER_CANCEL]",
+    "[SLIPPAGE]",
+    "[POSITION]",
+    "[RISK_TRIGGER]",
+    "[STAGE]",
+    "[LOG_CLEANUP]",
+    "[SYSTEM_ERROR]",
+    "[EXPOSURE]",
+]
+
+
+class TradingLogFilter(logging.Filter):
+    def filter(self, record: logging.LogRecord) -> bool:
+        msg = record.getMessage()
+        if record.levelno >= logging.ERROR:
+            return True
+        for token in LOG_ALLOW_TOKENS:
+            if token in msg:
+                return True
+        return False
+
+
+def cleanup_old_logs(max_age_seconds: int = 7200) -> int:
+    log_dir = Path(__file__).parent.parent / "logs"
+    if not log_dir.exists():
+        return 0
+    cutoff = datetime.now() - timedelta(seconds=max_age_seconds)
+    deleted = 0
+    for log_file in log_dir.glob("*.log"):
+        try:
+            mtime = datetime.fromtimestamp(log_file.stat().st_mtime)
+            if mtime < cutoff:
+                log_file.unlink(missing_ok=True)
+                deleted += 1
+        except Exception:
+            continue
+    return deleted
 
 
 def setup_logger(name: str = "ai_quant_trader", level: int = logging.INFO) -> logging.Logger:
@@ -29,6 +77,10 @@ def setup_logger(name: str = "ai_quant_trader", level: int = logging.INFO) -> lo
     )
     console_handler.setFormatter(formatter)
     file_handler.setFormatter(formatter)
+
+    log_filter = TradingLogFilter()
+    console_handler.addFilter(log_filter)
+    file_handler.addFilter(log_filter)
     
     logger.addHandler(console_handler)
     logger.addHandler(file_handler)

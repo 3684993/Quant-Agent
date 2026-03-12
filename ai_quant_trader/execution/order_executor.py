@@ -14,6 +14,7 @@ class OrderExecutor:
         self.trade_guard = trade_guard
         self.pending_orders: Dict[str, Dict] = {}
         self.order_history: List[Dict] = []
+        self.recently_cancelled: Dict[str, datetime] = {}
         self.tick_sizes: Dict[str, float] = {}
         self.step_sizes: Dict[str, float] = {}
         self.execution_planner = ExecutionPlanner()
@@ -74,6 +75,9 @@ class OrderExecutor:
                 order_side = "BUY"
             
             rounded_size = self._round_quantity(symbol, size)
+            if rounded_size < 0.002 or rounded_size > 0.01:
+                logger.warning("[ORDER_SUBMIT] symbol=%s reason=SIZE_OUT_OF_RANGE size=%.6f", symbol, rounded_size)
+                return {"success": False, "error": "SIZE_OUT_OF_RANGE"}
             
             # 检查是否存在重复委托（限价单才检查）
             if order_type.lower() == "limit" and price:
@@ -150,6 +154,14 @@ class OrderExecutor:
         price: float = None
     ) -> Dict:
         try:
+            if str(order_type).lower() == "market":
+                logger.warning("[ORDER_SUBMIT] symbol=%s reason=MARKET_CLOSE_DISABLED", symbol)
+                return {"success": False, "error": "MARKET_CLOSE_DISABLED"}
+            if size is not None:
+                rounded_size = self._round_quantity(symbol, float(size))
+                if rounded_size < 0.002 or rounded_size > 0.01:
+                    logger.warning("[ORDER_SUBMIT] symbol=%s reason=SIZE_OUT_OF_RANGE size=%.6f", symbol, rounded_size)
+                    return {"success": False, "error": "SIZE_OUT_OF_RANGE"}
             logger.info(f"Closing position: {symbol} side={position_side} size={size or 'all'}")
             
             if position_side.lower() == "long":
@@ -364,7 +376,9 @@ class OrderExecutor:
                             del self.pending_orders[order_id]
                         
                         cancelled.append(order_id)
+                        self.recently_cancelled[order_id] = datetime.now()
                         logger.info(f"Order cancelled: {order_id}")
+                        logger.info("[ORDER_CANCEL] symbol=%s order=%s", symbol, order_id)
                         
                     except Exception as e:
                         logger.warning(f"Cancel order {order_id} failed: {e}")
@@ -380,6 +394,8 @@ class OrderExecutor:
                                 )
                             cancelled.append(order_id)
                             del self.pending_orders[order_id]
+                            self.recently_cancelled[order_id] = datetime.now()
+                            logger.info("[ORDER_CANCEL] symbol=%s order=%s", symbol, order_id)
                         except Exception as e:
                             logger.warning(f"Cancel order {order_id} failed: {e}")
             
@@ -1011,7 +1027,7 @@ class OrderExecutor:
             exchange_orders = self.client.get_open_orders(symbol)
             
             # 调试信息：显示原始订单数据
-            logger.info(f"交易所返回 {len(exchange_orders)} 个原始订单")
+            logger.debug(f"交易所返回 {len(exchange_orders)} 个原始订单")
             for i, order in enumerate(exchange_orders):
                 logger.debug(f"订单{i+1}: {order}")
             
@@ -1039,7 +1055,7 @@ class OrderExecutor:
                     "time": order.get("time", 0)
                 })
             
-            logger.info(f"查询到 {len(similar_orders)} 个活跃订单")
+            logger.debug(f"查询到 {len(similar_orders)} 个活跃订单")
             return similar_orders
             
         except Exception as e:
@@ -1061,17 +1077,22 @@ class OrderExecutor:
             return 0.0
     
     def check_duplicate_orders(self, symbol: str, side: str, price: float, 
-                             size: float, price_tolerance: float = 0.005) -> bool:
+                             size: float, price_tolerance: float = 1.0) -> bool:
         """检查是否存在重复委托"""
         try:
             existing_orders = self.get_existing_orders(symbol, side)
             
             for order in existing_orders:
+                order_id = str(order.get("order_id", ""))
+                if order_id and order_id in self.recently_cancelled:
+                    elapsed = (datetime.now() - self.recently_cancelled[order_id]).total_seconds()
+                    if elapsed < 30:
+                        continue
                 order_price = order.get("price", 0)
                 order_size = order.get("quantity", 0)
                 
                 # 检查价格是否接近（价格容差范围内）
-                price_diff_pct = abs(order_price - price) / price
+                price_diff_pct = abs(float(order_price) - float(price))
                 
                 # 检查数量和价格是否相似
                 if (price_diff_pct <= price_tolerance and 

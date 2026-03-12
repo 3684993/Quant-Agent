@@ -208,7 +208,13 @@ class PositionManager:
 
         return {"allowed": True, "reason": "Min hold time satisfied", "net_profit": net_profit}
 
-    def check_local_sl_tp(self, symbol: str, current_price: float) -> Dict:
+    def check_local_sl_tp(
+        self,
+        symbol: str,
+        current_price: float,
+        trend_direction: str = "",
+        trend_strength: float = 0.0,
+    ) -> Dict:
         if not self.position or self.position.get("symbol") != symbol:
             return {"triggered": False}
 
@@ -217,18 +223,76 @@ class PositionManager:
         take_profit = float(self.position.get("take_profit", 0.0))
         current_price = float(current_price)
 
+        trigger_type = None
         if side == "long":
             if stop_loss > 0 and current_price <= stop_loss:
-                return {"triggered": True, "trigger_type": "STOP_LOSS", "stop_loss": stop_loss, "take_profit": take_profit}
-            if take_profit > 0 and current_price >= take_profit:
-                return {"triggered": True, "trigger_type": "TAKE_PROFIT", "stop_loss": stop_loss, "take_profit": take_profit}
+                trigger_type = "STOP_LOSS"
+            elif take_profit > 0 and current_price >= take_profit:
+                trigger_type = "TAKE_PROFIT"
         else:
             if stop_loss > 0 and current_price >= stop_loss:
-                return {"triggered": True, "trigger_type": "STOP_LOSS", "stop_loss": stop_loss, "take_profit": take_profit}
-            if take_profit > 0 and current_price <= take_profit:
-                return {"triggered": True, "trigger_type": "TAKE_PROFIT", "stop_loss": stop_loss, "take_profit": take_profit}
+                trigger_type = "STOP_LOSS"
+            elif take_profit > 0 and current_price <= take_profit:
+                trigger_type = "TAKE_PROFIT"
 
-        return {"triggered": False, "stop_loss": stop_loss, "take_profit": take_profit}
+        if not trigger_type:
+            return {"triggered": False, "stop_loss": stop_loss, "take_profit": take_profit}
+
+        if trigger_type == "STOP_LOSS":
+            return {"triggered": True, "trigger_type": "STOP_LOSS", "stop_loss": stop_loss, "take_profit": take_profit}
+
+        # TAKE_PROFIT gating: min hold time, profit thresholds, trend alignment
+        entry_time = self.position.get("entry_time")
+        held_seconds = (datetime.now() - entry_time).total_seconds() if entry_time else 0.0
+        entry_price = float(self.position.get("entry_price", 0.0) or 0.0)
+        if entry_price <= 0:
+            return {"triggered": True, "trigger_type": "TAKE_PROFIT", "stop_loss": stop_loss, "take_profit": take_profit}
+
+        if side == "long":
+            profit_rate = (current_price - entry_price) / entry_price * 100.0
+        else:
+            profit_rate = (entry_price - current_price) / entry_price * 100.0
+
+        fees = float(self.position.get("fees", 0.0) or 0.0)
+        size = float(self.position.get("position_size", 0.0) or 0.0)
+        fee_rate = (fees / (entry_price * size) * 100.0) if entry_price * size > 0 else 0.0
+        net_profit_rate = profit_rate - fee_rate
+
+        min_hold_seconds = 120
+        extend_seconds = 120
+
+        trend_key = str(trend_direction or "").lower()
+        aligned = False
+        if side == "long" and trend_key in ["bullish", "trend_up", "up", "long"]:
+            aligned = True
+        if side == "short" and trend_key in ["bearish", "trend_down", "down", "short"]:
+            aligned = True
+
+        if net_profit_rate > 0.5:
+            return {"triggered": True, "trigger_type": "TAKE_PROFIT", "stop_loss": stop_loss, "take_profit": take_profit}
+
+        required_seconds = min_hold_seconds + (extend_seconds if aligned else 0)
+        if held_seconds < required_seconds:
+            logger.info(
+                "[RISK_TRIGGER] symbol=%s reason=TAKE_PROFIT_DELAY hold=%.0fs<%ds profit=%.3f%% aligned=%s",
+                symbol,
+                held_seconds,
+                required_seconds,
+                profit_rate,
+                aligned,
+            )
+            return {"triggered": False, "reason": "TAKE_PROFIT_DELAY"}
+
+        if net_profit_rate < 0.2:
+            logger.info(
+                "[RISK_TRIGGER] symbol=%s reason=TAKE_PROFIT_TOO_SMALL profit=%.3f%% net=%.3f%%",
+                symbol,
+                profit_rate,
+                net_profit_rate,
+            )
+            return {"triggered": False, "reason": "TAKE_PROFIT_TOO_SMALL"}
+
+        return {"triggered": True, "trigger_type": "TAKE_PROFIT", "stop_loss": stop_loss, "take_profit": take_profit}
 
     def get_position_state(self) -> Dict:
         if not self.position:
