@@ -674,6 +674,7 @@ class OrderExecutor:
             if isinstance(target_size, list):
                 target_size = target_size[0] if target_size else 0.01
             target_size = float(target_size or 0.01)
+            logger.info(f"TARGET_POSITION_UPDATE: {symbol} target_size={target_size:.4f}")
             
             # 获取已成交数量
             filled_size = position_state.get("position_size", 0)

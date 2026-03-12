@@ -44,7 +44,9 @@ class Settings:
             "order_timeout": int(os.getenv("ORDER_TIMEOUT", "120")),
             "price_step_ratio": float(os.getenv("PRICE_STEP_RATIO", "0.0005")),
             "max_orders": int(os.getenv("MAX_ORDERS", "4")),
-            "price_gap": float(os.getenv("PRICE_GAP", "100"))
+            "price_gap": float(os.getenv("PRICE_GAP", "100")),
+            "too_far_distance": float(os.getenv("TOO_FAR_DISTANCE", "500")),
+            "signal_confirmations": int(os.getenv("SIGNAL_CONFIRMATIONS", "3"))
         }
         
     def validate(self):

@@ -13,9 +13,13 @@ def test_target_position_engine_outputs_action_from_target_position():
         "take_profit": 71000,
     }
     position_state = {"has_position": False}
-    out = tpe.update_target_position("BTCUSDT", ai_decision, position_state, {"trend": "bullish"})
-    assert out["action"] == "open_long"
-    assert out["target_size"] == 0.02
+    out1 = tpe.update_target_position("BTCUSDT", ai_decision, position_state, {"trend": "bullish"})
+    out2 = tpe.update_target_position("BTCUSDT", ai_decision, position_state, {"trend": "bullish"})
+    out3 = tpe.update_target_position("BTCUSDT", ai_decision, position_state, {"trend": "bullish"})
+    assert out1["action"] == "hold"
+    assert out2["action"] == "hold"
+    assert out3["action"] == "open_long"
+    assert out3["target_size"] == 0.02
 
 
 def test_target_position_engine_flat_closes_existing_position():

@@ -28,6 +28,7 @@ class ExecutionPlanner:
     ) -> None:
         self.min_trade_size = float(min_trade_size)
         self.max_trade_size = float(max_trade_size)
+        self.max_position = float(max_trade_size)
         self.max_pending_orders = int(max_pending_orders)
         self.order_timeout_seconds = int(order_timeout_seconds)
         self.price_step = float(price_step)
@@ -65,7 +66,7 @@ class ExecutionPlanner:
         remaining_size: float,
     ) -> List[Dict]:
         """拆单：优先按 min_trade_size 拆分，最多 4 单，且每单不超过 max_trade_size。"""
-        qty = max(0.0, float(remaining_size))
+        qty = max(0.0, min(float(remaining_size), self.max_position))
         if qty < self.min_trade_size:
             return []
 
@@ -92,6 +93,7 @@ class ExecutionPlanner:
 
         price_levels = self._generate_price_levels(side=side, base_price=float(base_price), count=order_count)
         orders: List[Dict] = []
+        logger.info(f"ORDER_SPLIT_EXECUTED: {symbol} qty={qty:.4f} orders={order_count} step={self.price_step}")
         for idx, (size, price) in enumerate(zip(sizes, price_levels), start=1):
             if not self.validate_order_size(size):
                 return []

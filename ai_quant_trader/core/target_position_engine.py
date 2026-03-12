@@ -13,6 +13,8 @@ class TargetPositionEngine:
     def __init__(self):
         self.last_position_time = {}
         self.base_confidence_threshold = 0.55
+        self.signal_confirmations = {}
+        self.required_confirmations = int(settings.PARAMS.get("signal_confirmations", 3))
 
     def update_target_position(self, symbol: str, ai_decision: Dict, position_state: Dict, market_summary: Dict) -> Dict:
         direction = str(ai_decision.get("direction", "flat")).lower()
@@ -31,6 +33,25 @@ class TargetPositionEngine:
 
         current_side = position_state.get("side", "")
         has_position = bool(position_state.get("has_position"))
+
+        # 连续3次相同信号才允许开仓
+        if direction in ["long", "short"] and not has_position:
+            key = (symbol, direction)
+            prev = self.signal_confirmations.get(symbol, {"direction": None, "count": 0})
+            if prev.get("direction") == direction:
+                prev["count"] += 1
+            else:
+                prev = {"direction": direction, "count": 1}
+            self.signal_confirmations[symbol] = prev
+
+            if prev["count"] < self.required_confirmations:
+                logger.info(
+                    f"TARGET_POSITION_UPDATE: {symbol} signal confirm {prev['count']}/{self.required_confirmations}, hold"
+                )
+                direction = "flat"
+                target_size = 0.0
+        elif direction == "flat":
+            self.signal_confirmations[symbol] = {"direction": "flat", "count": 0}
 
         if direction == "flat" or target_size <= 0:
             action = "close_position" if has_position else "hold"

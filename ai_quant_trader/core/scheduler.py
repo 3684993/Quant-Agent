@@ -25,6 +25,7 @@ from learning.strategy_optimizer import StrategyOptimizer
 from core.trade_guard import TradeGuard
 from config.settings import settings
 from core.target_position_engine import TargetPositionEngine
+from core.risk_engine import RiskEngine
 
 
 class Scheduler:
@@ -74,6 +75,8 @@ class Scheduler:
         self._last_position_state = None
         self.target_position_engine = TargetPositionEngine()
         
+        self.risk_engine = RiskEngine(self.position_manager, self.risk_manager)
+
         self.trade_guard = TradeGuard(
             min_order_interval_seconds=settings.min_order_interval_seconds,
             trend_confirmation_count=settings.trend_confirmation_count
@@ -229,18 +232,23 @@ class Scheduler:
                                 self.trade_guard.clear_position(symbol)
                         continue
                 
-                risk_result = self.risk_manager.check_risk(position_state)
-                
+                risk_result = self.risk_engine.evaluate(
+                    symbol=symbol,
+                    position_state=position_state,
+                    current_price=current_price,
+                    trend_change=trend_change if position_state.get("has_position") else False,
+                )
+
                 if risk_result.get("action") == "force_close":
-                    formatted_output.print_warning(f"风险触发 - 强制平仓")
+                    formatted_output.print_warning(f"风险触发 - 强制平仓({risk_result.get('reason', 'UNKNOWN')})")
                     if self.order_executor:
                         close_result = self.order_executor.close_position(
-                            symbol, 
+                            symbol,
                             position_state.get("side", "long"),
                             position_state.get("position_size", 0)
                         )
                         formatted_output.print_execution_result(symbol, close_result)
-                        
+
                         if close_result.get("success"):
                             self._save_trade_to_memory(
                                 symbol, position_state, current_price, regime, market_summary
@@ -508,8 +516,8 @@ class Scheduler:
                         pos = self.position_manager.get_position_state()
 
                         # 3) 风险检查
-                        if pos.get('has_position') and self.risk_manager:
-                            risk = self.risk_manager.check_risk(pos)
+                        if pos.get('has_position') and self.risk_engine:
+                            risk = self.risk_engine.evaluate(symbol=symbol, position_state=pos, current_price=float(pos.get('current_price', 0) or 0), trend_change=False)
                             if risk.get('action') == 'force_close' and self.order_executor:
                                 self.order_executor.close_position(symbol, pos.get('side', 'long'), pos.get('position_size', 0))
                                 self.position_manager.update_position(symbol=symbol, position_size=0, entry_price=0)

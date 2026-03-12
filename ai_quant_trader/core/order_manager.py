@@ -13,8 +13,9 @@ class OrderManager:
         self.max_orders = int(settings.PARAMS.get("max_orders", 4))
         self.price_gap = float(settings.PARAMS.get("price_gap", 100))
         self.order_timeout = int(settings.PARAMS.get("order_timeout", 120))
-        self.too_far_distance = 500.0
+        self.too_far_distance = float(settings.PARAMS.get("too_far_distance", 500.0))
         self.market_analyzer = market_analyzer
+        self.last_trend_by_symbol = {}
 
     def inspect_all_orders(self, symbol: str, intended_side: Optional[str] = None) -> Dict:
         orders = self.order_executor.get_existing_orders(symbol) or []
@@ -43,6 +44,7 @@ class OrderManager:
                 low_prob_ids.append(oid)
 
         stale_ids = self._find_stale_orders(orders)
+        trend_changed = self._detect_trend_change(symbol)
         return {
             "success": True,
             "symbol": symbol,
@@ -53,6 +55,7 @@ class OrderManager:
             "too_far_order_ids": too_far_ids,
             "low_probability_order_ids": low_prob_ids,
             "stale_order_ids": stale_ids,
+            "trend_changed": trend_changed,
         }
 
     def auto_cleanup_orders(self, symbol: str) -> Dict:
@@ -89,3 +92,16 @@ class OrderManager:
         diff = abs(order_price - current_price) / current_price
         base = max(0.0, 1.0 - diff * 20)
         return min(1.0, base)
+
+
+    def _detect_trend_change(self, symbol: str) -> bool:
+        if not self.market_analyzer:
+            return False
+        try:
+            summary = self.market_analyzer.get_market_summary(symbol)
+            trend = str(summary.get("trend", "neutral"))
+            prev = self.last_trend_by_symbol.get(symbol)
+            self.last_trend_by_symbol[symbol] = trend
+            return prev is not None and prev != trend
+        except Exception:
+            return False

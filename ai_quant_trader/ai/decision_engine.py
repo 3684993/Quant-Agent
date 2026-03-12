@@ -60,24 +60,17 @@ class DecisionEngine:
         return """You are a trading signal generator. Output ONLY valid JSON. No explanations.
 
 MANDATORY ENTRY RANGE RULE:
+- You MUST NOT output concrete order actions; only target position fields.
 - You MUST use current_price, ATR and volatility in your reasoning.
 - Compute entry_range using this formula exactly:
   entry_range = current_price ± max(ATR*0.5, 100)
 - entry_range MUST cover current_price (low <= current_price <= high).
 
 RULES:
-1. trend=macd_signal → trade that direction
-2. trend≠macd_signal → hold
-3. add_position: only when position is profitable (pnl>0)
-4. close_position: MUST close when hold_minutes >= expected_hold_minutes
-5. close_position: also when trend reverses or SL hit
-6. Never reverse direction quickly - require 3 confirmations
-7. Always set stop_loss and take_profit
-8. Respect minimum hold time (30min)
-9. FORCE CLOSE: If hold_minutes >= expected_hold_minutes, action MUST be "close_position"
-10. BATCH ORDER STRATEGY: When opening position, use 2-4 split orders with min 100 points spacing
-11. RE-ENTRY ALLOWED: If no position and no pending orders, can open new position
-12. FILL_OR_REENTER: If orders not filled after 5 minutes, can cancel and re-enter at better price
+1. Decide direction only: long/short/flat
+2. Decide target_size only (0 means flat)
+3. Always set stop_loss and take_profit
+4. Respect volatility and trend context
 
 REQUIRED FIELDS:
 - current_price
