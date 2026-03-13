@@ -81964,3 +81964,2013 @@ ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in
 2026-03-13 08:28:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
 ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
 INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:15:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣10.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:30:06 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:30:06 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.23 룬ȴ 4.77 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:15:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣10.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:30:11 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:30:11 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:15:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣10.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:30:16 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:30:16 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.19 룬ȴ 4.81 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:15:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣10.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:30:21 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:30:21 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣10.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:30:26 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:30:26 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣10.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:30:31 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:30:31 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣11.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:30:36 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:30:36 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣11.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:30:41 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:30:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.21 룬ȴ 4.79 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣11.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:30:46 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:30:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣11.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:30:51 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:30:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣11.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:30:56 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:30:56 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.23 룬ȴ 4.77 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣11.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:31:01 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:31:01 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣11.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:31:06 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:31:06 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.26 룬ȴ 4.74 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣11.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:31:11 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:31:11 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣11.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:31:16 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:31:16 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.22 룬ȴ 4.78 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣11.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:31:21 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:31:21 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣11.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:31:26 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:31:26 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣11.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:31:31 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:31:31 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣12.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:31:36 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:31:36 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣12.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:31:41 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:31:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣12.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:31:46 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:31:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:POSITION_HOLD_TIME: BTCUSDT ֲ֣12.0 
+INFO:ai_quant_trader:[LOOP] BTCUSDT гֲִ֣гֲֹ...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ֲֹ̿ʼ
+2026-03-13 08:31:51 | ERROR    | ai_quant_trader | ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ֲֹʧܣ'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:31:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:31:56 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:31:56 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:32:01 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:32:01 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:32:06 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:32:06 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:32:11 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:32:11 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:32:16 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:32:16 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:32:21 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:32:21 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:32:26 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:32:26 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:32:31 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:32:31 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:32:36 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:32:36 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:32:41 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:32:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.23 룬ȴ 4.77 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:32:46 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:32:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:32:51 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:32:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:32:56 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:32:56 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:33:01 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:33:01 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:33:06 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:33:06 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:33:11 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:33:11 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:33:16 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:33:16 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:33:21 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:33:21 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:33:26 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:33:26 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:33:31 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:33:31 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.14 룬ȴ 4.86 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:33:36 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:33:36 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:33:41 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:33:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:33:46 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:33:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:33:51 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:33:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.20 룬ȴ 4.80 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:33:56 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:33:56 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.22 룬ȴ 4.78 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:34:01 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:34:01 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:34:06 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:34:06 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:34:11 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:34:11 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.19 룬ȴ 4.81 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:34:16 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:34:16 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.20 룬ȴ 4.80 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:34:21 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:34:21 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:34:26 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:34:26 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.20 룬ȴ 4.80 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:34:31 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:34:31 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:34:36 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:34:36 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:34:41 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:34:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:34:46 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:34:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:34:51 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:34:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:34:56 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:34:56 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:35:01 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:35:01 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:35:06 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:35:06 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:35:11 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:35:11 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:35:16 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:35:16 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:35:23 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:35:23 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 2.12 룬ȴ 2.88 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:35:26 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:35:26 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.21 룬ȴ 4.79 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:35:31 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:35:31 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:35:36 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:35:36 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:35:41 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:35:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.19 룬ȴ 4.81 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:35:46 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:35:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:35:51 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:35:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:35:56 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:35:56 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:36:01 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:36:01 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.24 룬ȴ 4.76 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:36:07 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:36:07 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.56 룬ȴ 4.44 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:36:12 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:36:12 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.82 룬ȴ 4.18 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:36:16 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:36:16 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:36:21 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:36:21 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:36:26 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:36:26 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:36:31 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:36:31 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.20 룬ȴ 4.80 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:36:36 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:36:36 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:36:41 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:36:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.20 룬ȴ 4.80 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:36:46 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:36:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.19 룬ȴ 4.81 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:36:51 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:36:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:36:56 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:36:56 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:37:01 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:37:01 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.19 룬ȴ 4.81 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:37:06 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:37:06 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:37:11 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:37:11 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:37:16 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:37:16 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.19 룬ȴ 4.81 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:37:21 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:37:21 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.20 룬ȴ 4.80 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:37:26 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:37:26 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.20 룬ȴ 4.80 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:37:31 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:37:31 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.20 룬ȴ 4.80 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:37:36 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:37:36 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.19 룬ȴ 4.81 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:37:41 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:37:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:37:46 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:37:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:37:51 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:37:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:37:56 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:37:56 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.20 룬ȴ 4.80 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:38:01 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:38:01 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:38:06 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:38:06 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:38:11 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:38:11 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:38:16 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:38:16 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:38:21 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:38:21 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.14 룬ȴ 4.86 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:38:26 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:38:26 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:38:31 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:38:31 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:38:37 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:38:37 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.29 룬ȴ 4.71 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:38:41 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:38:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:38:46 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:38:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:38:51 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:38:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:38:56 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:38:56 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.21 룬ȴ 4.79 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:39:01 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:39:01 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:39:06 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:39:06 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:39:11 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:39:11 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:39:16 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:39:16 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:39:21 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:39:21 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:39:26 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:39:26 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:39:31 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:39:31 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:39:36 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:39:36 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:39:41 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:39:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.19 룬ȴ 4.81 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:39:46 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:39:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.21 룬ȴ 4.79 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:39:51 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:39:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:39:56 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:39:56 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.20 룬ȴ 4.80 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:40:01 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:40:01 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:40:06 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:40:06 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:40:11 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:40:11 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:40:16 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:40:16 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.19 룬ȴ 4.81 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:40:21 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:40:21 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:40:26 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:40:26 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:40:31 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:40:31 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:40:36 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:40:36 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:40:41 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:40:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.20 룬ȴ 4.80 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:40:46 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:40:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:40:51 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:40:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:40:56 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:40:56 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.18 룬ȴ 4.82 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:41:01 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:41:01 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:41:06 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:41:06 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:41:11 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:41:11 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:41:16 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:41:16 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.17 룬ȴ 4.83 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:41:21 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:41:21 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:41:26 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:41:26 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:41:31 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:41:31 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:41:36 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:41:36 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:41:41 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:41:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:41:46 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:41:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.16 룬ȴ 4.84 ʼһ
+INFO:ai_quant_trader:[LOOP] ȴɣʼһѭ
+INFO:ai_quant_trader:[LOOP] BTCUSDT ʼ...
+INFO:ai_quant_trader:Fetching 200 klines for BTCUSDT 15m (attempt 1)
+INFO:ai_quant_trader:Successfully fetched 200 klines for BTCUSDT 15m
+INFO:ai_quant_trader:[LOOP] BTCUSDT ݻȡɣʼ...
+INFO:ai_quant_trader:Cache updated: BTCUSDT 15m - 200 candles, latest: 2026-03-13 00:30:00
+INFO:ai_quant_trader:[LOOP] BTCUSDT ָɣʼֲͬ...
+INFO:ai_quant_trader:[LOOP] BTCUSDT ޳ֲִ֣н...
+INFO:ai_quant_trader:[FLOW] BTCUSDT ̿ʼ
+2026-03-13 08:41:51 | ERROR    | ai_quant_trader | ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:ʧܣ'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+2026-03-13 08:41:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+ERROR:ai_quant_trader:Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f3e6' in position 0: illegal multibyte sequence
+INFO:ai_quant_trader:[LOOP] ܺʱ 0.15 룬ȴ 4.85 ʼһ
