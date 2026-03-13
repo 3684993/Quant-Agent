@@ -156,9 +156,12 @@ class Scheduler:
                     if not self.order_rationality_checker:
                         self.order_rationality_checker = OrderRationalityChecker(
                             self.order_executor,
-                            max_orders=4,
+                            max_orders=int(getattr(settings, "max_orders", 4)),
                             min_price_spacing=10.0,
-                            order_timeout_minutes=60
+                            order_timeout_minutes=60,
+                            min_order_quantity=float(getattr(settings, "min_trade_size", 0.005)),
+                            max_total_quantity=float(getattr(settings, "max_trade_size", 0.02)),
+                            max_price_distance_ratio=0.02,
                         )
                     
                     # 检查并清理不合理委托
@@ -1356,50 +1359,24 @@ class Scheduler:
             
             if not has_take_profit and self.order_executor:
                 # 创建止盈委托（方向必须与持仓相反）
-                logger.info("[ORDER] 创建止盈委托：%s %.4f @ %.2f (止盈/止损) - 持仓方向：%s",
+                logger.info("[ORDER] 创建止盈委托：%s %.4f @ %.2f (限价止盈) - 持仓方向：%s",
                           take_profit_side, position_size, take_profit_price, side.upper())
-                
-                # ✅ 使用 TAKE_PROFIT_MARKET 市价止盈（币安官方推荐方式）
-                # 根据币安官方文档：
-                # - 类型：TAKE_PROFIT_MARKET (市价止盈)
-                # - 参数：stopPrice (触发价格)
-                # - 参数：closePosition=True (全部平仓)
-                # - 触发条件：当最新价格 >= stopPrice 时触发（多头止盈）
-                try:
-                    result = self.order_executor.client.client.new_order(
-                        symbol=symbol,
-                        side=take_profit_side,  # 必须与持仓方向相反
-                        type="TAKE_PROFIT_MARKET",  # ✅ 市价止盈
-                        stopPrice=take_profit_price,  # ✅ 触发价格
-                        closePosition=True  # ✅ 全部平仓
+
+                result = self.order_executor.place_limit_take_profit(
+                    symbol=symbol,
+                    position_side=side,
+                    quantity=position_size,
+                    take_profit_price=take_profit_price,
+                )
+
+                if result.get("success"):
+                    logger.info(
+                        "[ORDER] ✅ 限价止盈委托已提交：订单 ID=%s, 价格=%.2f",
+                        result.get("order_id", "UNKNOWN"),
+                        take_profit_price,
                     )
-                    
-                    if result.get("orderId"):
-                        logger.info("[ORDER] ✅ 市价止盈委托已提交：订单 ID=%s, 触发价格=%.2f", 
-                                  result.get("orderId"), take_profit_price)
-                        logger.info("[ORDER] 止盈详情：方向=%s, 数量=%.4f, 触发条件：最新价格%s%.2f",
-                                  take_profit_side, position_size,
-                                  ">=" if side == "long" else "<=", take_profit_price)
-                    else:
-                        logger.warning("[ORDER] 止盈委托提交失败：返回结果异常")
-                        
-                except Exception as order_error:
-                    logger.error(f"[ORDER] 市价止盈委托提交失败：{order_error}")
-                    # 回退到限价单方式
-                    logger.info("[ORDER] 回退到限价单方式")
-                    result = self.order_executor.open_position(
-                        symbol=symbol,
-                        side=take_profit_side,
-                        size=position_size,
-                        order_type="limit",
-                        price=take_profit_price,
-                        reduce_only=False
-                    )
-                    
-                    if result.get("success"):
-                        logger.info("[ORDER] 限价止盈委托已提交：订单 ID=%s", result.get("order_id", "UNKNOWN"))
-                    else:
-                        logger.warning("[ORDER] 限价止盈委托提交失败：%s", result.get("error", "未知错误"))
+                else:
+                    logger.warning("[ORDER] 限价止盈委托提交失败：%s", result.get("error", "未知错误"))
             elif has_take_profit:
                 logger.debug("[ORDER] 已有止盈委托，跳过")
             else:

@@ -31,7 +31,7 @@ class Settings:
         self.min_hold_minutes = int(os.getenv("MIN_HOLD_MINUTES", "30"))
         self.max_hold_minutes = int(os.getenv("MAX_HOLD_MINUTES", "120"))
         
-        self.max_position_size = float(os.getenv("MAX_POSITION_SIZE", "0.05"))
+        self.max_position_size = float(os.getenv("MAX_POSITION_SIZE", "0.02"))
         self.max_drawdown_pct = float(os.getenv("MAX_DRAWDOWN_PCT", "-8.0"))
         self.max_loss_pct = float(os.getenv("MAX_LOSS_PCT", "-10.0"))
         

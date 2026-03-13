@@ -93,9 +93,11 @@ class OrderExecutor:
             else:
                 logger.debug("[ORDER] 平仓委托，跳过暴露量检查：size=%.4f", rounded_size)
             
-            # 检查数量范围：最小 0.002 BTC，最大 0.1 BTC（更合理的范围）
-            if rounded_size < 0.002 or rounded_size > 0.1:
-                logger.warning("[ORDER_SUBMIT] symbol=%s reason=SIZE_OUT_OF_RANGE size=%.6f (范围：0.002-0.1)", symbol, rounded_size)
+            # 检查数量范围：默认最小0.005、最大0.02（可通过配置覆盖）
+            min_trade_size = float(getattr(settings, "min_trade_size", 0.005))
+            max_trade_size = float(getattr(settings, "max_trade_size", 0.02))
+            if rounded_size < min_trade_size or rounded_size > max_trade_size:
+                logger.warning("[ORDER_SUBMIT] symbol=%s reason=SIZE_OUT_OF_RANGE size=%.6f (范围：%.3f-%.3f)", symbol, rounded_size, min_trade_size, max_trade_size)
                 return {"success": False, "error": "SIZE_OUT_OF_RANGE"}
             
             # 检查是否存在重复委托（限价单才检查）
@@ -501,6 +503,57 @@ class OrderExecutor:
             logger.error(f"[{symbol}] Set SL/TP error: {e}")
             return {"success": False, "error": str(e)}
     
+
+    def place_limit_take_profit(
+        self,
+        symbol: str,
+        position_side: str,
+        quantity: float,
+        take_profit_price: float,
+    ) -> Dict:
+        """创建非条件限价止盈委托（普通 LIMIT 单，不使用条件委托）。"""
+        try:
+            if quantity <= 0 or take_profit_price <= 0:
+                return {"success": False, "error": "INVALID_TP_PARAMS"}
+
+            close_side = "SELL" if str(position_side).lower() == "long" else "BUY"
+            rounded_qty = self._round_quantity(symbol, float(quantity))
+            rounded_price = self._round_price(symbol, float(take_profit_price))
+
+            params = {
+                "symbol": symbol,
+                "side": close_side,
+                "type": "LIMIT",
+                "price": rounded_price,
+                "quantity": rounded_qty,
+                "timeInForce": "GTC",
+            }
+            result = self.client.client.new_order(**params)
+            order_id = result.get("orderId")
+            logger.info(
+                "[ORDER] LIMIT_TP_SUBMIT symbol=%s side=%s qty=%.4f price=%.2f orderId=%s",
+                symbol,
+                close_side,
+                rounded_qty,
+                rounded_price,
+                order_id,
+            )
+            return {
+                "success": True,
+                "order_id": order_id,
+                "order": {
+                    "order_id": order_id,
+                    "symbol": symbol,
+                    "side": close_side,
+                    "type": "LIMIT",
+                    "price": rounded_price,
+                    "quantity": rounded_qty,
+                    },
+                "result": result,
+            }
+        except Exception as e:
+            logger.error("[ORDER] LIMIT_TP_SUBMIT_FAILED symbol=%s error=%s", symbol, e)
+            return {"success": False, "error": str(e)}
     def execute_decision(
         self,
         decision: Dict,
@@ -1068,10 +1121,15 @@ class OrderExecutor:
                 similar_orders.append({
                     "order_id": order.get("orderId"),
                     "side": order_side,
+                    "type": str(order.get("type", "LIMIT") or "LIMIT").upper(),
                     "price": order_price,
-                    "quantity": float(order.get("origQty", 0)),
+                    "stop_price": float(order.get("stopPrice", 0) or 0),
+                    "quantity": float(order.get("origQty", 0) or 0),
                     "status": status,
-                    "time": order.get("time", 0)
+                    "reduceOnly": bool(order.get("reduceOnly", False)),
+                    "closePosition": bool(order.get("closePosition", False)),
+                    "time": order.get("time", 0),
+                    "updateTime": order.get("updateTime", 0),
                 })
             
             logger.debug(f"查询到 {len(similar_orders)} 个活跃订单")
