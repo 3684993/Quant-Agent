@@ -1,0 +1,133 @@
+{
+  "start_time": "2026-03-12 23:48:46",
+  "current_time": "2026-03-13 00:19:57",
+  "running_duration": "0:31:11.348592",
+  "total_orders": 129,
+  "total_errors": 5567,
+  "current_position": 0.002,
+  "total_profit": 0.0,
+  "recent_orders": [
+    {
+      "type": "ORDER_FILLED",
+      "time": "00:16:21",
+      "symbol": "BTCUSDT",
+      "size": 0.002,
+      "price": 70290.4
+    },
+    {
+      "type": "ORDER_FILLED",
+      "time": "00:16:26",
+      "symbol": "BTCUSDT",
+      "size": 0.002,
+      "price": 70290.4
+    },
+    {
+      "type": "ORDER_FILLED",
+      "time": "00:16:31",
+      "symbol": "BTCUSDT",
+      "size": 0.002,
+      "price": 70290.4
+    },
+    {
+      "type": "ORDER_FILLED",
+      "time": "00:16:36",
+      "symbol": "BTCUSDT",
+      "size": 0.002,
+      "price": 70290.4
+    },
+    {
+      "type": "ORDER_FILLED",
+      "time": "00:16:41",
+      "symbol": "BTCUSDT",
+      "size": 0.002,
+      "price": 70290.4
+    },
+    {
+      "type": "ORDER_FILLED",
+      "time": "00:16:46",
+      "symbol": "BTCUSDT",
+      "size": 0.002,
+      "price": 70290.4
+    },
+    {
+      "type": "ORDER_FILLED",
+      "time": "00:16:51",
+      "symbol": "BTCUSDT",
+      "size": 0.002,
+      "price": 70290.4
+    },
+    {
+      "type": "ORDER_FILLED",
+      "time": "00:16:56",
+      "symbol": "BTCUSDT",
+      "size": 0.002,
+      "price": 70290.4
+    },
+    {
+      "type": "ORDER_FILLED",
+      "time": "00:17:01",
+      "symbol": "BTCUSDT",
+      "size": 0.002,
+      "price": 70290.4
+    },
+    {
+      "type": "ORDER_FILLED",
+      "time": "00:17:06",
+      "symbol": "BTCUSDT",
+      "size": 0.002,
+      "price": 70290.4
+    }
+  ],
+  "recent_errors": [
+    {
+      "type": "REDUCE_ONLY_ERROR",
+      "time": "00:19:57",
+      "message": "ReduceOnly Order rejected"
+    },
+    {
+      "type": "REDUCE_ONLY_ERROR",
+      "time": "00:19:57",
+      "message": "ReduceOnly Order rejected"
+    },
+    {
+      "type": "REDUCE_ONLY_ERROR",
+      "time": "00:19:57",
+      "message": "ReduceOnly Order rejected"
+    },
+    {
+      "type": "REDUCE_ONLY_ERROR",
+      "time": "00:19:57",
+      "message": "ReduceOnly Order rejected"
+    },
+    {
+      "type": "REDUCE_ONLY_ERROR",
+      "time": "00:19:57",
+      "message": "ReduceOnly Order rejected"
+    },
+    {
+      "type": "REDUCE_ONLY_ERROR",
+      "time": "00:19:57",
+      "message": "ReduceOnly Order rejected"
+    },
+    {
+      "type": "REDUCE_ONLY_ERROR",
+      "time": "00:19:57",
+      "message": "ReduceOnly Order rejected"
+    },
+    {
+      "type": "REDUCE_ONLY_ERROR",
+      "time": "00:19:57",
+      "message": "ReduceOnly Order rejected"
+    },
+    {
+      "type": "REDUCE_ONLY_ERROR",
+      "time": "00:19:57",
+      "message": "ReduceOnly Order rejected"
+    },
+    {
+      "type": "REDUCE_ONLY_ERROR",
+      "time": "00:19:57",
+      "message": "ReduceOnly Order rejected"
+    }
+  ]
+}

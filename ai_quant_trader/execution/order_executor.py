@@ -75,8 +75,27 @@ class OrderExecutor:
                 order_side = "BUY"
             
             rounded_size = self._round_quantity(symbol, size)
-            if rounded_size < 0.002 or rounded_size > 0.01:
-                logger.warning("[ORDER_SUBMIT] symbol=%s reason=SIZE_OUT_OF_RANGE size=%.6f", symbol, rounded_size)
+            
+            # 检查暴露量限制：仅开仓委托需要检查，平仓委托（reduce_only=True）跳过检查
+            if not reduce_only:
+                exposure_check = self.check_exposure_limit(symbol, order_side, rounded_size)
+                if not exposure_check.get("allowed"):
+                    logger.warning(
+                        f"[ORDER_SUBMIT] symbol={symbol} reason=EXPOSURE_LIMIT_EXCEEDED "
+                        f"size={rounded_size:.4f}, available={exposure_check.get('available_size', 0):.4f}, "
+                        f"reason={exposure_check.get('reason', '')}"
+                    )
+                    return {
+                        "success": False, 
+                        "error": "EXPOSURE_LIMIT_EXCEEDED",
+                        "available_size": exposure_check.get("available_size", 0)
+                    }
+            else:
+                logger.debug("[ORDER] 平仓委托，跳过暴露量检查：size=%.4f", rounded_size)
+            
+            # 检查数量范围：最小 0.002 BTC，最大 0.1 BTC（更合理的范围）
+            if rounded_size < 0.002 or rounded_size > 0.1:
+                logger.warning("[ORDER_SUBMIT] symbol=%s reason=SIZE_OUT_OF_RANGE size=%.6f (范围：0.002-0.1)", symbol, rounded_size)
                 return {"success": False, "error": "SIZE_OUT_OF_RANGE"}
             
             # 检查是否存在重复委托（限价单才检查）
@@ -84,7 +103,7 @@ class OrderExecutor:
                 rounded_price = self._round_price(symbol, price)
                 
                 # 检查重复委托
-                if self.check_duplicate_orders(symbol, order_side, rounded_price, rounded_size):
+                if self.check_duplicate_orders(symbol, order_side, rounded_price, rounded_size, check_price_only=True):  # 只检查价格
                     logger.warning(f"发现重复委托，跳过执行: {side} {rounded_size} {symbol} @ {rounded_price}")
                     return {
                         "success": False,
@@ -1077,8 +1096,15 @@ class OrderExecutor:
             return 0.0
     
     def check_duplicate_orders(self, symbol: str, side: str, price: float, 
-                             size: float, price_tolerance: float = 1.0) -> bool:
-        """检查是否存在重复委托"""
+                             size: float, price_tolerance: float = 5.0,
+                             check_price_only: bool = False) -> bool:
+        """
+        检查是否存在重复委托
+        
+        Args:
+            check_price_only: 如果为 True，只检查价格是否相同（不管数量）
+                             如果为 False，检查价格和数量都相似
+        """
         try:
             existing_orders = self.get_existing_orders(symbol, side)
             
@@ -1091,21 +1117,80 @@ class OrderExecutor:
                 order_price = order.get("price", 0)
                 order_size = order.get("quantity", 0)
                 
-                # 检查价格是否接近（价格容差范围内）
-                price_diff_pct = abs(float(order_price) - float(price))
-                
-                # 检查数量和价格是否相似
-                if (price_diff_pct <= price_tolerance and 
-                    abs(order_size - size) / max(order_size, size) <= 0.1):
-                    logger.warning(f"发现重复委托: 价格={order_price:.2f} vs {price:.2f}, "
+                if check_price_only:
+                    # 只检查价格是否相同（更严格的重复检查）
+                    if abs(float(order_price) - float(price)) < 0.5:  # 价格差异 < 0.5 USDT
+                        return True
+                else:
+                    # 检查价格是否接近（价格容差范围内）
+                    price_diff_pct = abs(float(order_price) - float(price))
+                    
+                    # 检查数量和价格是否相似
+                    if (price_diff_pct <= price_tolerance and 
+                        abs(order_size - size) / max(order_size, size) <= 0.1):
+                        logger.warning(f"发现重复委托: 价格={order_price:.2f} vs {price:.2f}, "
                                  f"数量={order_size:.4f} vs {size:.4f}")
-                    return True
+                        return True
             
             return False
             
         except Exception as e:
-            logger.error(f"检查重复委托失败: {e}")
+            logger.error(f"检查重复委托失败：{e}")
             return False
+    
+    def check_exposure_limit(self, symbol: str, side: str, new_size: float) -> Dict:
+        """
+        检查暴露量限制：持仓 + 未成交委托 + 新委托 <= 0.02 BTC
+        
+        返回：
+        - allowed: 是否允许委托
+        - available_size: 还可委托的数量
+        - reason: 原因说明
+        """
+        try:
+            # 获取当前持仓
+            position = self.client.get_position(symbol)
+            # 使用 position_amt 获取持仓量（做多时为正，做空时为负）
+            current_position = abs(position.get('position_amt', 0)) if position else 0
+            
+            # 获取现有未成交委托
+            existing_orders = self.get_existing_orders(symbol, side)
+            existing_orders_size = sum(order.get("quantity", 0) for order in existing_orders)
+            
+            # 最大持仓限制
+            max_position_size = getattr(settings, 'max_position_size', 0.02)
+            
+            # 计算总暴露量
+            total_exposure = current_position + existing_orders_size + new_size
+            
+            # 计算可用额度
+            available_size = max(0, max_position_size - current_position - existing_orders_size)
+            
+            if total_exposure > max_position_size:
+                logger.warning(
+                    f"暴露量超限：持仓={current_position:.4f}, 现有委托={existing_orders_size:.4f}, "
+                    f"新委托={new_size:.4f}, 总计={total_exposure:.4f}, 限制={max_position_size:.4f}, "
+                    f"可用={available_size:.4f}"
+                )
+                return {
+                    "allowed": False,
+                    "available_size": available_size,
+                    "reason": f"暴露量超限：总计{total_exposure:.4f} > 限制{max_position_size:.4f}"
+                }
+            
+            return {
+                "allowed": True,
+                "available_size": available_size,
+                "reason": f"暴露量检查通过：总计{total_exposure:.4f} <= 限制{max_position_size:.4f}"
+            }
+            
+        except Exception as e:
+            logger.error(f"检查暴露量失败：{e}")
+            return {
+                "allowed": False,
+                "available_size": 0,
+                "reason": f"检查失败：{str(e)}"
+            }
     
     def cleanup_excessive_orders(self, symbol: str, side: str = None, max_orders: int = 4) -> Dict:
         """清理过多的委托订单"""

@@ -34,7 +34,7 @@ class ExecutionEngine:
         execution_planner: Optional[ExecutionPlanner] = None,
         tracker: Optional[ExecutionTracker] = None,
         slippage_estimator: Optional[SlippageEstimator] = None,
-        cycle_interval_seconds: int = 60,
+        cycle_interval_seconds: int = 5,  # 降频：从 60 秒改为 5 秒
     ) -> None:
         self.order_executor = order_executor
         self.binance_client = binance_client
@@ -111,7 +111,26 @@ class ExecutionEngine:
         if not task:
             task = self._create_task(decision, symbol, current_price, position_state, intent)
             if not task:
-                return {"success": False, "action": action, "error": "Failed to create task"}
+                # 增加详细错误原因输出
+                target_size = self._resolve_target_size(decision, position_state, action)
+                position_size, open_orders_size, open_orders_count, total_exposure, _ = self._calculate_exposure(
+                    symbol, position_state, task_remaining=float(target_size)
+                )
+                available = max(0.0, self.max_position_size - position_size - open_orders_size)
+                
+                error_reason = "unknown"
+                if target_size <= 0:
+                    error_reason = f"target_size_zero (target={target_size:.6f})"
+                elif total_exposure >= self.max_position_size:
+                    error_reason = f"exposure_limit (position={position_size:.6f}, open_orders={open_orders_size:.6f}, task={target_size:.6f}, total={total_exposure:.6f}, max={self.max_position_size:.6f})"
+                elif available < self.min_trade_size:
+                    error_reason = f"min_trade_size (available={available:.6f}, min={self.min_trade_size:.6f})"
+                
+                logger.error(
+                    "[EXECUTION] symbol=%s action=%s status=FAILED reason=%s",
+                    symbol, action, error_reason
+                )
+                return {"success": False, "action": action, "error": f"Failed to create task: {error_reason}"}
 
         return self._advance_task(task, current_price, indicators)
 
@@ -145,8 +164,8 @@ class ExecutionEngine:
             symbol, position_state, task_remaining=float(target_size)
         )
         if total_exposure >= self.max_position_size:
-            logger.info(
-                "[EXPOSURE] symbol=%s blocked=1 position=%.6f open_orders=%.6f task_remaining=%.6f total=%.6f max=%.6f",
+            logger.warning(
+                "[EXPOSURE] symbol=%s blocked=1 reason=total_exposure_limit position=%.6f open_orders=%.6f task_remaining=%.6f total=%.6f max=%.6f",
                 symbol,
                 position_size,
                 open_orders_size,
@@ -158,17 +177,23 @@ class ExecutionEngine:
 
         available = max(0.0, self.max_position_size - position_size - open_orders_size)
         if available < self.min_trade_size:
-            logger.info(
-                "[EXPOSURE] symbol=%s blocked=1 position=%.6f open_orders=%.6f task_remaining=%.6f total=%.6f max=%.6f",
+            logger.warning(
+                "[EXPOSURE] symbol=%s blocked=1 reason=available_below_min position=%.6f open_orders=%.6f available=%.6f min_trade_size=%.6f",
                 symbol,
                 position_size,
                 open_orders_size,
-                float(target_size),
-                total_exposure,
-                self.max_position_size,
+                available,
+                self.min_trade_size,
             )
             return None
         if available < target_size:
+            logger.info(
+                "[EXPOSURE] symbol=%s reason=trim_task_size available=%.6f original_target=%.6f trimmed_target=%.6f",
+                symbol,
+                available,
+                float(target_size),
+                available,
+            )
             target_size = available
 
         entry_range = decision.get("entry_range", [0.0, 0.0]) if isinstance(decision.get("entry_range", None), list) else [0.0, 0.0]

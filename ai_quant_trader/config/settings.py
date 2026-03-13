@@ -19,7 +19,7 @@ class Settings:
         self.symbol = os.getenv("SYMBOL", "BTCUSDT")
         self.timeframes = ["1m", "5m", "15m"]
         self.kline_limit = 200
-        self.loop_interval = 60
+        self.loop_interval = 5  # 降频：从 60 秒改为 5 秒
         self.intra_cycle_check_seconds = int(os.getenv("INTRA_CYCLE_CHECK_SECONDS", "5"))
         
         trading_env = os.getenv("TRADING_ENV", "testnet").lower()
