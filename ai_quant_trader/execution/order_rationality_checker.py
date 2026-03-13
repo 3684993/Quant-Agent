@@ -15,7 +15,7 @@ class OrderRationalityChecker:
     4. 同类型订单价格间距不能过近
     5. 订单超时自动清理
     6. 价格偏离当前价过远自动清理
-    7. 止盈单必须是 LIMIT + reduceOnly（禁止条件委托）
+    7. 止盈单必须是 LIMIT（禁止条件委托）
     """
 
     def __init__(
@@ -176,43 +176,40 @@ class OrderRationalityChecker:
         return close_orders
 
     def _find_invalid_take_profit_orders(self, symbol: str, orders: List[Dict], current_price: float) -> List[Dict]:
-        """检查止盈委托是否合法：仅允许 reduceOnly 的 LIMIT 平仓单。"""
+        """检查止盈委托是否合法：仅允许普通 LIMIT，禁止条件止盈委托。"""
         invalid: List[Dict] = []
         for o in orders:
             order_type = str(o.get("type", "") or "").upper()
             side = str(o.get("side", "") or "").upper()
-            is_reduce_only = bool(o.get("reduceOnly") or o.get("closePosition"))
             qty = float(o.get("quantity", 0) or 0)
             price = float(o.get("price", 0) or 0)
-            stop_price = float(o.get("stop_price", 0) or 0)
 
-            # 条件委托一律视为不合规止盈候选
+            # 条件委托一律视为不合规
             if order_type in {"TAKE_PROFIT", "TAKE_PROFIT_MARKET", "STOP", "STOP_MARKET", "STOP_LOSS", "STOP_LOSS_LIMIT"}:
-                invalid.append(self._with_reason(o, "止盈类型错误(禁止条件委托，需LIMIT+reduceOnly)"))
+                invalid.append(self._with_reason(o, "止盈类型错误(禁止条件委托，需普通LIMIT)"))
                 continue
 
-            # 只检查疑似止盈单：reduceOnly 委托或带 stopPrice 的委托
-            if not is_reduce_only and stop_price <= 0:
+            # 非 LIMIT 且看起来是止盈语义的委托，判为不合理
+            if order_type not in {"", "LIMIT"}:
+                invalid.append(self._with_reason(o, "止盈类型错误(必须LIMIT)"))
                 continue
 
-            reason = None
-            if order_type != "LIMIT":
-                reason = "止盈类型错误(必须LIMIT)"
-            elif not is_reduce_only:
-                reason = "止盈缺少reduceOnly属性"
-            elif qty <= 0:
-                reason = "止盈数量不合法"
-            elif price <= 0:
-                reason = "止盈价格不合法"
-            elif current_price > 0:
-                if side == "SELL" and price <= current_price:
-                    reason = "多头止盈价格不合理(应高于现价)"
-                if side == "BUY" and price >= current_price:
-                    reason = "空头止盈价格不合理(应低于现价)"
+            # 对 LIMIT 做基础价格/数量与方向检查（不再要求 reduceOnly）
+            if order_type == "LIMIT":
+                reason = None
+                if qty <= 0:
+                    reason = "止盈数量不合法"
+                elif price <= 0:
+                    reason = "止盈价格不合法"
+                elif current_price > 0:
+                    if side == "SELL" and price <= current_price:
+                        reason = "多头止盈价格不合理(应高于现价)"
+                    if side == "BUY" and price >= current_price:
+                        reason = "空头止盈价格不合理(应低于现价)"
 
-            if reason:
-                invalid.append(self._with_reason(o, reason))
-                logger.warning("[RATIONALITY] %s 检测到不合理止盈单: order=%s reason=%s", symbol, o.get("order_id"), reason)
+                if reason:
+                    invalid.append(self._with_reason(o, reason))
+                    logger.warning("[RATIONALITY] %s 检测到不合理止盈单: order=%s reason=%s", symbol, o.get("order_id"), reason)
 
         return invalid
 

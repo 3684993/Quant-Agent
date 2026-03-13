@@ -511,7 +511,7 @@ class OrderExecutor:
         quantity: float,
         take_profit_price: float,
     ) -> Dict:
-        """创建非条件限价止盈委托（reduceOnly 限价单）。"""
+        """创建非条件限价止盈委托（普通 LIMIT 单，不使用条件委托）。"""
         try:
             if quantity <= 0 or take_profit_price <= 0:
                 return {"success": False, "error": "INVALID_TP_PARAMS"}
@@ -527,12 +527,11 @@ class OrderExecutor:
                 "price": rounded_price,
                 "quantity": rounded_qty,
                 "timeInForce": "GTC",
-                "reduceOnly": True,
             }
             result = self.client.client.new_order(**params)
             order_id = result.get("orderId")
             logger.info(
-                "[ORDER] LIMIT_TP_SUBMIT symbol=%s side=%s qty=%.4f price=%.2f reduceOnly=True orderId=%s",
+                "[ORDER] LIMIT_TP_SUBMIT symbol=%s side=%s qty=%.4f price=%.2f orderId=%s",
                 symbol,
                 close_side,
                 rounded_qty,
@@ -549,8 +548,7 @@ class OrderExecutor:
                     "type": "LIMIT",
                     "price": rounded_price,
                     "quantity": rounded_qty,
-                    "reduceOnly": True,
-                },
+                    },
                 "result": result,
             }
         except Exception as e:

@@ -44,7 +44,7 @@ def test_cleanup_detects_quantity_total_and_spacing_violations():
     assert any("同类型(LIMIT)间距过近" in r for r in result["reasons"])
 
 
-def test_cleanup_rejects_conditional_take_profit_and_accepts_limit_reduce_only():
+def test_cleanup_rejects_conditional_take_profit_and_accepts_limit_tp():
     now_ms = int(datetime.now().timestamp() * 1000)
     orders = [
         {
@@ -64,7 +64,7 @@ def test_cleanup_rejects_conditional_take_profit_and_accepts_limit_reduce_only()
             "type": "LIMIT",
             "price": 71000,
             "quantity": 0.01,
-            "reduceOnly": True,
+            "reduceOnly": False,
             "closePosition": False,
             "time": now_ms,
         }
@@ -92,7 +92,7 @@ def test_cleanup_detects_timeout_and_far_price():
     assert any("价格偏离过大" in r for r in result["reasons"])
 
 
-def test_place_limit_take_profit_submits_limit_reduce_only():
+def test_place_limit_take_profit_submits_plain_limit():
     from execution.order_executor import OrderExecutor
 
     class DummyRawClient:
@@ -118,5 +118,5 @@ def test_place_limit_take_profit_submits_limit_reduce_only():
     assert result["success"] is True
     params = ex.client.client.last_params
     assert params["type"] == "LIMIT"
-    assert params["reduceOnly"] is True
+    assert "reduceOnly" not in params
     assert params["side"] == "SELL"

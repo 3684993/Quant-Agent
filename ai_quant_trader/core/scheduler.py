@@ -1371,7 +1371,7 @@ class Scheduler:
 
                 if result.get("success"):
                     logger.info(
-                        "[ORDER] ✅ 限价止盈委托已提交：订单 ID=%s, 价格=%.2f, reduceOnly=True",
+                        "[ORDER] ✅ 限价止盈委托已提交：订单 ID=%s, 价格=%.2f",
                         result.get("order_id", "UNKNOWN"),
                         take_profit_price,
                     )
