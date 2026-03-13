@@ -13917,3 +13917,35 @@
 2026-03-13 08:29:40 | INFO     | ai_quant_trader | [ANALYSIS] BTCUSDT 趋势强度=中等 可靠性=中 趋势变化=否
 2026-03-13 08:29:40 | INFO     | ai_quant_trader | [POSITION] 动态止损检查完成：当前止损价=71424.31, 未调整
 2026-03-13 08:29:40 | INFO     | ai_quant_trader | [POSITION] 动态追踪止损检查：当前止损=71424.31, 距离现价=0.10%, 未调整
+2026-03-13 08:29:41 | ERROR    | ai_quant_trader | 持仓管理流程失败：'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:29:41 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:29:42 | INFO     | ai_quant_trader | [AI_DECISION] BTCUSDT action=hold target=0.0200 confidence=0.80 理由=未提供
+2026-03-13 08:29:42 | WARNING  | ai_quant_trader | [ORDER_SUBMIT] symbol=BTCUSDT reason=EXPOSURE_LIMIT_EXCEEDED size=0.0940, available=0.0060, reason=暴露量超限：总计0.1880 > 限制0.1000
+2026-03-13 08:29:43 | INFO     | ai_quant_trader | [ANALYSIS] BTCUSDT 趋势强度=中等 可靠性=中 趋势变化=否
+2026-03-13 08:29:43 | INFO     | ai_quant_trader | [POSITION] 动态止损检查完成：当前止损价=71424.31, 未调整
+2026-03-13 08:29:43 | INFO     | ai_quant_trader | [POSITION] 动态追踪止损检查：当前止损=71424.31, 距离现价=0.10%, 未调整
+2026-03-13 08:29:43 | INFO     | ai_quant_trader | [AI_DECISION] BTCUSDT action=hold (限流跳过)
+2026-03-13 08:29:44 | WARNING  | ai_quant_trader | [ORDER_SUBMIT] symbol=BTCUSDT reason=EXPOSURE_LIMIT_EXCEEDED size=0.0940, available=0.0060, reason=暴露量超限：总计0.1880 > 限制0.1000
+2026-03-13 08:29:46 | ERROR    | ai_quant_trader | 持仓管理流程失败：'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:29:46 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:29:48 | INFO     | ai_quant_trader | [ANALYSIS] BTCUSDT 趋势强度=中等 可靠性=中 趋势变化=否
+2026-03-13 08:29:48 | INFO     | ai_quant_trader | [POSITION] 动态止损检查完成：当前止损价=71424.31, 未调整
+2026-03-13 08:29:48 | INFO     | ai_quant_trader | [POSITION] 动态追踪止损检查：当前止损=71424.31, 距离现价=0.10%, 未调整
+2026-03-13 08:29:49 | INFO     | ai_quant_trader | [AI_DECISION] BTCUSDT action=hold target=0.0200 confidence=0.80 理由=未提供
+2026-03-13 08:29:50 | WARNING  | ai_quant_trader | [ORDER_SUBMIT] symbol=BTCUSDT reason=EXPOSURE_LIMIT_EXCEEDED size=0.0940, available=0.0060, reason=暴露量超限：总计0.1880 > 限制0.1000
+2026-03-13 08:29:51 | ERROR    | ai_quant_trader | 持仓管理流程失败：'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:29:51 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:29:54 | INFO     | ai_quant_trader | [ANALYSIS] BTCUSDT 趋势强度=中等 可靠性=中 趋势变化=否
+2026-03-13 08:29:54 | INFO     | ai_quant_trader | [POSITION] 动态止损检查完成：当前止损价=71424.31, 未调整
+2026-03-13 08:29:54 | INFO     | ai_quant_trader | [POSITION] 动态追踪止损检查：当前止损=71424.31, 距离现价=0.13%, 未调整
+2026-03-13 08:29:55 | INFO     | ai_quant_trader | [AI_DECISION] BTCUSDT action=hold target=0.0200 confidence=0.80 理由=未提供
+2026-03-13 08:29:55 | WARNING  | ai_quant_trader | [ORDER_SUBMIT] symbol=BTCUSDT reason=EXPOSURE_LIMIT_EXCEEDED size=0.0940, available=0.0060, reason=暴露量超限：总计0.1880 > 限制0.1000
+2026-03-13 08:29:56 | ERROR    | ai_quant_trader | 持仓管理流程失败：'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:29:56 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:29:59 | INFO     | ai_quant_trader | [ANALYSIS] BTCUSDT 趋势强度=中等 可靠性=中 趋势变化=否
+2026-03-13 08:29:59 | INFO     | ai_quant_trader | [POSITION] 动态止损检查完成：当前止损价=71424.31, 未调整
+2026-03-13 08:29:59 | INFO     | ai_quant_trader | [POSITION] 动态追踪止损检查：当前止损=71424.31, 距离现价=0.10%, 未调整
+2026-03-13 08:30:00 | INFO     | ai_quant_trader | [AI_DECISION] BTCUSDT action=hold target=0.0200 confidence=0.80 理由=未提供
+2026-03-13 08:30:00 | WARNING  | ai_quant_trader | [ORDER_SUBMIT] symbol=BTCUSDT reason=EXPOSURE_LIMIT_EXCEEDED size=0.0940, available=0.0060, reason=暴露量超限：总计0.1880 > 限制0.1000
+2026-03-13 08:30:01 | ERROR    | ai_quant_trader | 持仓管理流程失败：'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
+2026-03-13 08:30:01 | ERROR    | ai_quant_trader | Trading loop error for BTCUSDT: 'gbk' codec can't encode character '\U0001f4bc' in position 0: illegal multibyte sequence
