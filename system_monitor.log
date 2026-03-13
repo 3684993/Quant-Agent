@@ -1,0 +1,9 @@
+# 系统监控日志 - 2026-03-13 00:21:16
+usage: python.exe -m ai_quant_trader.main [-h] [--symbol SYMBOL]
+                                          [--interval INTERVAL] [--days DAYS]
+                                          [--capital CAPITAL] [--use-ai]
+                                          [--iterations ITERATIONS]
+                                          [--window-size WINDOW_SIZE]
+                                          [--step-size STEP_SIZE]
+                                          {live,backtest,sandbox,walkforward,health}
+python.exe -m ai_quant_trader.main: error: the following arguments are required: mode
