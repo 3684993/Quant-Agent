@@ -4,6 +4,7 @@ from core.logger import logger
 from exchange.binance_client import BinanceClient
 from config.settings import settings
 from core.execution_planner import ExecutionPlanner
+from core.order_manager import OrderManager
 
 
 class OrderExecutor:
@@ -13,9 +14,11 @@ class OrderExecutor:
         self.trade_guard = trade_guard
         self.pending_orders: Dict[str, Dict] = {}
         self.order_history: List[Dict] = []
+        self.recently_cancelled: Dict[str, datetime] = {}
         self.tick_sizes: Dict[str, float] = {}
         self.step_sizes: Dict[str, float] = {}
         self.execution_planner = ExecutionPlanner()
+        self.order_manager = OrderManager(self)
         
         logger.info(f"OrderExecutor initialized (testnet={testnet}, env={settings.trading_env})")
     
@@ -73,12 +76,34 @@ class OrderExecutor:
             
             rounded_size = self._round_quantity(symbol, size)
             
+            # 检查暴露量限制：仅开仓委托需要检查，平仓委托（reduce_only=True）跳过检查
+            if not reduce_only:
+                exposure_check = self.check_exposure_limit(symbol, order_side, rounded_size)
+                if not exposure_check.get("allowed"):
+                    logger.warning(
+                        f"[ORDER_SUBMIT] symbol={symbol} reason=EXPOSURE_LIMIT_EXCEEDED "
+                        f"size={rounded_size:.4f}, available={exposure_check.get('available_size', 0):.4f}, "
+                        f"reason={exposure_check.get('reason', '')}"
+                    )
+                    return {
+                        "success": False, 
+                        "error": "EXPOSURE_LIMIT_EXCEEDED",
+                        "available_size": exposure_check.get("available_size", 0)
+                    }
+            else:
+                logger.debug("[ORDER] 平仓委托，跳过暴露量检查：size=%.4f", rounded_size)
+            
+            # 检查数量范围：最小 0.002 BTC，最大 0.1 BTC（更合理的范围）
+            if rounded_size < 0.002 or rounded_size > 0.1:
+                logger.warning("[ORDER_SUBMIT] symbol=%s reason=SIZE_OUT_OF_RANGE size=%.6f (范围：0.002-0.1)", symbol, rounded_size)
+                return {"success": False, "error": "SIZE_OUT_OF_RANGE"}
+            
             # 检查是否存在重复委托（限价单才检查）
             if order_type.lower() == "limit" and price:
                 rounded_price = self._round_price(symbol, price)
                 
                 # 检查重复委托
-                if self.check_duplicate_orders(symbol, order_side, rounded_price, rounded_size):
+                if self.check_duplicate_orders(symbol, order_side, rounded_price, rounded_size, check_price_only=True):  # 只检查价格
                     logger.warning(f"发现重复委托，跳过执行: {side} {rounded_size} {symbol} @ {rounded_price}")
                     return {
                         "success": False,
@@ -148,6 +173,14 @@ class OrderExecutor:
         price: float = None
     ) -> Dict:
         try:
+            if str(order_type).lower() == "market":
+                logger.warning("[ORDER_SUBMIT] symbol=%s reason=MARKET_CLOSE_DISABLED", symbol)
+                return {"success": False, "error": "MARKET_CLOSE_DISABLED"}
+            if size is not None:
+                rounded_size = self._round_quantity(symbol, float(size))
+                if rounded_size < 0.002 or rounded_size > 0.01:
+                    logger.warning("[ORDER_SUBMIT] symbol=%s reason=SIZE_OUT_OF_RANGE size=%.6f", symbol, rounded_size)
+                    return {"success": False, "error": "SIZE_OUT_OF_RANGE"}
             logger.info(f"Closing position: {symbol} side={position_side} size={size or 'all'}")
             
             if position_side.lower() == "long":
@@ -362,7 +395,9 @@ class OrderExecutor:
                             del self.pending_orders[order_id]
                         
                         cancelled.append(order_id)
+                        self.recently_cancelled[order_id] = datetime.now()
                         logger.info(f"Order cancelled: {order_id}")
+                        logger.info("[ORDER_CANCEL] symbol=%s order=%s", symbol, order_id)
                         
                     except Exception as e:
                         logger.warning(f"Cancel order {order_id} failed: {e}")
@@ -378,6 +413,8 @@ class OrderExecutor:
                                 )
                             cancelled.append(order_id)
                             del self.pending_orders[order_id]
+                            self.recently_cancelled[order_id] = datetime.now()
+                            logger.info("[ORDER_CANCEL] symbol=%s order=%s", symbol, order_id)
                         except Exception as e:
                             logger.warning(f"Cancel order {order_id} failed: {e}")
             
@@ -667,10 +704,12 @@ class OrderExecutor:
                     "message": "No action required"
                 }
             
-            # 获取目标仓位大小
-            target_size = decision.get("size", [0.01])
+            # 获取目标仓位大小（由 TargetPositionEngine 传入）
+            target_size = decision.get("target_size", decision.get("size", [0.01]))
             if isinstance(target_size, list):
                 target_size = target_size[0] if target_size else 0.01
+            target_size = float(target_size or 0.01)
+            logger.info(f"TARGET_POSITION_UPDATE: {symbol} target_size={target_size:.4f}")
             
             # 获取已成交数量
             filled_size = position_state.get("position_size", 0)
@@ -702,6 +741,15 @@ class OrderExecutor:
                     "message": "Remaining size below minimum trade size"
                 }
             
+            # 委托管理前置巡检（主周期内也会巡检，这里做执行前最终校验）
+            if not self.order_manager.can_create_orders(symbol):
+                return {"success": True, "action": "hold", "message": "cancel cooldown active"}
+            try:
+                self.order_manager.inspect_all_orders(symbol, intended_side=("BUY" if action in ["open_long", "add_position"] else "SELL" if action in ["open_short"] else None))
+                self.order_manager.auto_cleanup_orders(symbol)
+            except Exception as e:
+                logger.warning(f"OrderManager pre-check warning: {e}")
+
             # 根据不同的action执行相应的逻辑
             if action in ["open_long", "open_short"]:
                 return self._execute_open_position(
@@ -763,7 +811,7 @@ class OrderExecutor:
         base_price = decision.get("entry_range", [current_price])[0]
         
         orders = self.execution_planner.generate_split_orders(
-            symbol, side, target_size, base_price, remaining_size
+            symbol, side, target_size, base_price, remaining_size, current_price=current_price
         )
         
         if not orders:
@@ -846,7 +894,7 @@ class OrderExecutor:
         base_price = decision.get("entry_range", [current_price])[0]
         
         orders = self.execution_planner.generate_split_orders(
-            symbol, side, target_size, base_price, remaining_size
+            symbol, side, target_size, base_price, remaining_size, current_price=current_price
         )
         
         if not orders:
@@ -984,7 +1032,7 @@ class OrderExecutor:
         # 使用智能开仓逻辑
         return self._execute_open_position(
             decision["action"], decision, symbol, current_price, {
-                "target_size": decision.get("size", [0.01])[0],
+                "target_size": float(decision.get("target_size", decision.get("size", [0.01])[0] if isinstance(decision.get("size", [0.01]), list) else decision.get("size", 0.01))),
                 "remaining_size": decision.get("size", [0.01])[0],
                 "target_reached": False,
                 "can_trade": True
@@ -998,7 +1046,7 @@ class OrderExecutor:
             exchange_orders = self.client.get_open_orders(symbol)
             
             # 调试信息：显示原始订单数据
-            logger.info(f"交易所返回 {len(exchange_orders)} 个原始订单")
+            logger.debug(f"交易所返回 {len(exchange_orders)} 个原始订单")
             for i, order in enumerate(exchange_orders):
                 logger.debug(f"订单{i+1}: {order}")
             
@@ -1026,7 +1074,7 @@ class OrderExecutor:
                     "time": order.get("time", 0)
                 })
             
-            logger.info(f"查询到 {len(similar_orders)} 个活跃订单")
+            logger.debug(f"查询到 {len(similar_orders)} 个活跃订单")
             return similar_orders
             
         except Exception as e:
@@ -1036,42 +1084,113 @@ class OrderExecutor:
     def get_current_price(self, symbol: str) -> float:
         """获取当前市场价格"""
         try:
-            # 从市场数据服务获取最新价格
             if hasattr(self, 'market_data') and self.market_data:
-                return self.market_data.get('price', 0)
-            
-            # 备用方法：从交易所获取最新价格
-            # 这里可以通过查询最近的成交记录或 ticker 获取
-            return 0.0
+                maybe = self.market_data.get('price', 0) if isinstance(self.market_data, dict) else 0
+                if maybe:
+                    return float(maybe)
+
+            ticker = self.client.client.ticker_price(symbol=symbol)
+            return float(ticker.get('price', 0) or 0)
         except Exception as e:
             logger.error(f"获取当前价格失败：{e}")
             return 0.0
     
     def check_duplicate_orders(self, symbol: str, side: str, price: float, 
-                             size: float, price_tolerance: float = 0.005) -> bool:
-        """检查是否存在重复委托"""
+                             size: float, price_tolerance: float = 5.0,
+                             check_price_only: bool = False) -> bool:
+        """
+        检查是否存在重复委托
+        
+        Args:
+            check_price_only: 如果为 True，只检查价格是否相同（不管数量）
+                             如果为 False，检查价格和数量都相似
+        """
         try:
             existing_orders = self.get_existing_orders(symbol, side)
             
             for order in existing_orders:
+                order_id = str(order.get("order_id", ""))
+                if order_id and order_id in self.recently_cancelled:
+                    elapsed = (datetime.now() - self.recently_cancelled[order_id]).total_seconds()
+                    if elapsed < 30:
+                        continue
                 order_price = order.get("price", 0)
                 order_size = order.get("quantity", 0)
                 
-                # 检查价格是否接近（价格容差范围内）
-                price_diff_pct = abs(order_price - price) / price
-                
-                # 检查数量和价格是否相似
-                if (price_diff_pct <= price_tolerance and 
-                    abs(order_size - size) / max(order_size, size) <= 0.1):
-                    logger.warning(f"发现重复委托: 价格={order_price:.2f} vs {price:.2f}, "
+                if check_price_only:
+                    # 只检查价格是否相同（更严格的重复检查）
+                    if abs(float(order_price) - float(price)) < 0.5:  # 价格差异 < 0.5 USDT
+                        return True
+                else:
+                    # 检查价格是否接近（价格容差范围内）
+                    price_diff_pct = abs(float(order_price) - float(price))
+                    
+                    # 检查数量和价格是否相似
+                    if (price_diff_pct <= price_tolerance and 
+                        abs(order_size - size) / max(order_size, size) <= 0.1):
+                        logger.warning(f"发现重复委托: 价格={order_price:.2f} vs {price:.2f}, "
                                  f"数量={order_size:.4f} vs {size:.4f}")
-                    return True
+                        return True
             
             return False
             
         except Exception as e:
-            logger.error(f"检查重复委托失败: {e}")
+            logger.error(f"检查重复委托失败：{e}")
             return False
+    
+    def check_exposure_limit(self, symbol: str, side: str, new_size: float) -> Dict:
+        """
+        检查暴露量限制：持仓 + 未成交委托 + 新委托 <= 0.02 BTC
+        
+        返回：
+        - allowed: 是否允许委托
+        - available_size: 还可委托的数量
+        - reason: 原因说明
+        """
+        try:
+            # 获取当前持仓
+            position = self.client.get_position(symbol)
+            # 使用 position_amt 获取持仓量（做多时为正，做空时为负）
+            current_position = abs(position.get('position_amt', 0)) if position else 0
+            
+            # 获取现有未成交委托
+            existing_orders = self.get_existing_orders(symbol, side)
+            existing_orders_size = sum(order.get("quantity", 0) for order in existing_orders)
+            
+            # 最大持仓限制
+            max_position_size = getattr(settings, 'max_position_size', 0.02)
+            
+            # 计算总暴露量
+            total_exposure = current_position + existing_orders_size + new_size
+            
+            # 计算可用额度
+            available_size = max(0, max_position_size - current_position - existing_orders_size)
+            
+            if total_exposure > max_position_size:
+                logger.warning(
+                    f"暴露量超限：持仓={current_position:.4f}, 现有委托={existing_orders_size:.4f}, "
+                    f"新委托={new_size:.4f}, 总计={total_exposure:.4f}, 限制={max_position_size:.4f}, "
+                    f"可用={available_size:.4f}"
+                )
+                return {
+                    "allowed": False,
+                    "available_size": available_size,
+                    "reason": f"暴露量超限：总计{total_exposure:.4f} > 限制{max_position_size:.4f}"
+                }
+            
+            return {
+                "allowed": True,
+                "available_size": available_size,
+                "reason": f"暴露量检查通过：总计{total_exposure:.4f} <= 限制{max_position_size:.4f}"
+            }
+            
+        except Exception as e:
+            logger.error(f"检查暴露量失败：{e}")
+            return {
+                "allowed": False,
+                "available_size": 0,
+                "reason": f"检查失败：{str(e)}"
+            }
     
     def cleanup_excessive_orders(self, symbol: str, side: str = None, max_orders: int = 4) -> Dict:
         """清理过多的委托订单"""

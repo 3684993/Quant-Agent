@@ -112,8 +112,9 @@ class FormattedOutput:
         
     def print_ai_decision(self, symbol: str, decision: Dict):
         """打印AI决策信息"""
-        action = decision.get("action", "hold")
-        
+        action = decision.get("action")
+        direction = decision.get("direction", "flat")
+
         action_emoji = {
             "open_long": "🟢开多",
             "open_short": "🔴开空", 
@@ -121,18 +122,20 @@ class FormattedOutput:
             "close_position": "💸平仓",
             "reverse_position": "🔄反转",
             "hold": "⏸️持仓"
-        }.get(action, "⏸️持仓")
+        }.get(action, {"long": "🟢目标做多", "short": "🔴目标做空", "flat": "⏸️目标空仓"}.get(direction, "⏸️持仓"))
         
         entry_range = decision.get("entry_range", [0, 0])
         stop_loss = decision.get("stop_loss", 0)
         take_profit = decision.get("take_profit", 0)
         confidence = decision.get("confidence", 0.5)
+        target_size = decision.get("target_size", 0)
         
         decision_info = (
             f"🤖 AI决策 | {action_emoji} | "
             f"入场区间: {entry_range[0]:,.2f}-{entry_range[1]:,.2f} | "
             f"止损: {stop_loss:,.2f} | "
             f"止盈: {take_profit:,.2f} | "
+            f"目标仓位: {float(target_size):.4f} | "
             f"置信度: {confidence:.1%}"
         )
         print(decision_info)
@@ -141,6 +144,17 @@ class FormattedOutput:
         """打印执行结果信息"""
         action = result.get("action", "hold")
         success = result.get("success", False)
+
+        if result.get("in_progress"):
+            state = result.get("state", "UNKNOWN")
+            remaining = result.get("remaining_size", 0)
+            slippage = result.get("slippage", 0)
+            elapsed = result.get("elapsed", 0)
+            print(
+                f"⏳ 执行中 | {symbol} | state={state} | 剩余: {remaining:.4f} | "
+                f"滑点估计: {slippage:.4%} | 用时: {elapsed:.0f}s"
+            )
+            return
         
         if action == "hold" and not result.get("error"):
             print("⚡ 执行结果 | 保持持仓，无操作")
